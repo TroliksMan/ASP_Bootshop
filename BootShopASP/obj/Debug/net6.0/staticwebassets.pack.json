@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BootShopASP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BootShopASP.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\baby.png",
+      "PackagePath": "staticwebassets\\img\\baby.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\big_boy.png",
+      "PackagePath": "staticwebassets\\img\\big_boy.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\big_girl.png",
+      "PackagePath": "staticwebassets\\img\\big_girl.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\big_how.png",
+      "PackagePath": "staticwebassets\\img\\big_how.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\blue.png",
+      "PackagePath": "staticwebassets\\img\\blue.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\boots.png",
+      "PackagePath": "staticwebassets\\img\\boots.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota1.png",
+      "PackagePath": "staticwebassets\\img\\bota1.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota2.png",
+      "PackagePath": "staticwebassets\\img\\bota2.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota3.png",
+      "PackagePath": "staticwebassets\\img\\bota3.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota4.png",
+      "PackagePath": "staticwebassets\\img\\bota4.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota5.png",
+      "PackagePath": "staticwebassets\\img\\bota5.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\boy.png",
+      "PackagePath": "staticwebassets\\img\\boy.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\brown_two.png",
+      "PackagePath": "staticwebassets\\img\\brown_two.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bundgaard.webp",
+      "PackagePath": "staticwebassets\\img\\bundgaard.webp"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\feet.png",
+      "PackagePath": "staticwebassets\\img\\feet.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\girl.png",
+      "PackagePath": "staticwebassets\\img\\girl.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\gray_one.png",
+      "PackagePath": "staticwebassets\\img\\gray_one.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\gray_two.png",
+      "PackagePath": "staticwebassets\\img\\gray_two.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\heart.png",
+      "PackagePath": "staticwebassets\\img\\heart.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\instagram.png",
+      "PackagePath": "staticwebassets\\img\\instagram.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\mag-glass.png",
+      "PackagePath": "staticwebassets\\img\\mag-glass.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\mail.png",
+      "PackagePath": "staticwebassets\\img\\mail.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\pink.png",
+      "PackagePath": "staticwebassets\\img\\pink.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\pink_high.png",
+      "PackagePath": "staticwebassets\\img\\pink_high.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\pink_two.png",
+      "PackagePath": "staticwebassets\\img\\pink_two.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\pinkg_high_two.png",
+      "PackagePath": "staticwebassets\\img\\pinkg_high_two.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\profile-user.png",
+      "PackagePath": "staticwebassets\\img\\profile-user.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\shop.svg",
+      "PackagePath": "staticwebassets\\img\\shop.svg"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\skladem.png",
+      "PackagePath": "staticwebassets\\img\\skladem.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\slider-pic.png",
+      "PackagePath": "staticwebassets\\img\\slider-pic.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\tel.png",
+      "PackagePath": "staticwebassets\\img\\tel.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\twitter.png",
+      "PackagePath": "staticwebassets\\img\\twitter.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\velikost.png",
+      "PackagePath": "staticwebassets\\img\\velikost.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\zdarma.png",
+      "PackagePath": "staticwebassets\\img\\zdarma.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BootShopASP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BootShopASP.props",
+      "PackagePath": "build\\BootShopASP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BootShopASP.props",
+      "PackagePath": "buildMultiTargeting\\BootShopASP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BootShopASP.props",
+      "PackagePath": "buildTransitive\\BootShopASP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hGRcQjFIqHldWfNZqJzSdly3XkuVlGpExn39VC3D5t3j4PL/ek17yt6K5sP+fZmSk7YbzFlLA2MgOB2McZXNIw==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\BootShopASP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\troli\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\troli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\troli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\troli\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - BootShop</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/> *@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/BootShopASP.styles.css" asp-append-version="true"/>
+    @* <link href="https://fonts.googleapis.com" rel="preconnect"> *@
+    @* <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"> *@
+    @* <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&display=swap" rel="stylesheet"> *@
+</head>
+<body>
+<header class="font">
+    <div class="padding-10 contact ">
+        <div class="left">
+            <img alt="telephone" class="not-mobile" src="~/img/tel.png">
+            <a href="tel:777666555"><span class="not-mobile">+420&nbsp;</span>777&nbsp;666&nbsp;555</a>
+            <span
+                class="vert-center">
+                &nbsp;|&nbsp;
+            </span><a href="mailto:info@nejlepsiboty.cz">info@nejlepsiboty.cz</a>
+        </div>
+        <div class="right">
+            <a asp-controller="Admin" asp-action="Login">
+                <img alt="user-login" src="~/img/profile-user.png">
+                <div class="not-mobile">Přihlásit se</div>
+            </a>
+        </div>
+    </div>
+    <div class="icon-search padding-10">
+        <div class="logo">
+            <a asp-controller="Home" asp-action="Index">
+                <img alt="Logo" src="~/img/logo.png">
+            </a>
+        </div>
+        <div class="search">
+            <form action="search.php" class="search-input not-mobile">
+                <label for="search">
+                    <img alt="mag-glass" src="~/img/mag-glass.png">
+                </label>
+                <input class="font" id="search" name="searched" placeholder="Vyhledat zboží..." required type="text">
+            </form>
+            <div class="not-desktop">
+                <a href="">
+                    <img alt="mag-glass" src="~/img/mag-glass.png">
+                </a>
+            </div>
+            <div>
+                <a asp-controller="Cart" asp-action="Cart">
+                    <img alt="shop" src="~/img/shop.svg">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img alt="Heart" src="~/img/heart.png">
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav class="padding-10">
+        <ul>
+            <li>
+                <a href="">Chlapecké<img alt="" src="~/img/boy.png"></a>
+            </li>
+            <li>
+                <a href="">Dívčí<img alt="" src="~/img/girl.png"></a>
+            </li>
+            <li>
+                <a href="">Doplňky</a>
+            </li>
+            <li>
+                <a href="">Ostatní</a>
+            </li>
+            <li class="not-mobile">
+                <a href="">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main role="main" class="pb-3">
+    @RenderBody()
+</main>
+
+<footer>
+    <div class="about font">
+        <h2>O NÁS</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi cupiditate deserunt dignissimos
+            itaque
+            iure magni mollitia natus nostrum optio rem, similique tempore voluptate? Accusantium maxime nemo
+            nostrum
+            obcaecati repudiandae!
+            iure magni mollitia natus nostrum optio rem, similique tempore voluptate? Accusantium maxime nemo
+            nostrum
+            obcaecati repudiandae!
+            iure magni mollitia natus nostrum optio rem, similique tempore voluptate? Accusantium maxime nemo
+            nostrum
+            obcaecati repudiandae!
+        </p>
+        <a asp-controller="Home" asp-action="Index">
+            <img alt="Logo-white" class="logo-white" src="~/img/logo.png">
+        </a>
+    </div>
+    <div class="offers font">
+        <h2>NAŠE NABÍDKA</h2>
+        <div class="nabidka">
+            <div class="divci">
+                <h3>Dívčí</h3>
+                <ul>
+                    <li>
+                        <a href="">Tenisky</a>
+                    </li>
+                    <li>
+                        <a href="">Holinky</a>
+                    </li>
+                    <li>
+                        <a href="">Sandály</a>
+                    </li>
+                    <li>
+                        <a href="">Baleríny</a>
+                    </li>
+                    <li>
+                        <a href="">Polobotky</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="chlapecke">
+                <h3>Chlapecké</h3>
+                <ul>
+                    <li>
+                        <a href="">Tenisky</a>
+                    </li>
+                    <li>
+                        <a href="">Holinky</a>
+                    </li>
+                    <li>
+                        <a href="">Sandály</a>
+                    </li>
+                    <li>
+                        <a href="">Baleríny</a>
+                    </li>
+                    <li>
+                        <a href="">Polobotky</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <address class="contact font">
+        <h2>KONTAKTUJTE NÁS</h2>
+        <ul>
+            <li>
+                <a href="mailto:info@nejlepsiboty.cz"><img alt="mail" src="~/img/mail.png">info@nejlepsiboty.cz</a>
+            </li>
+            <li>
+                <a href="tel:777666555"><img alt="telephone" src="~/img/tel.png">+420 777 666 555</a>
+            </li>
+            <li>
+                <a href="">
+                    <img alt="facebook-logo" src="~/img/facebook.png">
+                </a>
+                <a href="">
+                    <img alt="instagram-logo" src="~/img/instagram.png">
+                </a>
+                <a href="">
+                    <img alt="twitter-logo" src="~/img/twitter.png">
+                </a>
+            </li>
+        </ul>
+        <p>Litvínovská 600, Praha 9, 190 00</p>
+    </address>
+</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

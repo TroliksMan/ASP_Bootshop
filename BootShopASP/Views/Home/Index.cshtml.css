@@ -1,0 +1,585 @@
+﻿.types, .offers, .tags {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.types .types-heading {
+
+    width: 60%;
+    height: 100%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+}
+
+.types .types-heading {
+    flex: 1;
+}
+
+.types a {
+    color: #304068;
+    font-size: 6vw;
+    text-decoration: none;
+}
+
+.types a:hover {
+    color: #c7232f;
+    text-decoration: underline;
+}
+
+.types .boy {
+    background-image: url(img/big_boy.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    margin-bottom: 1rem;
+}
+
+.types .girl {
+    background-image: url(img/big_girl.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    margin-bottom: 1rem;
+}
+
+.types .how {
+    background-image: url(img/big_how.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    margin-bottom: 1rem;
+}
+
+.break {
+    display: flex;
+    height: 4rem;
+}
+
+.break .line {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex: 4;
+    border-bottom: 1px rgba(48, 64, 104, 0.29) solid;
+    height: 1px;
+}
+
+.break .feet {
+    flex: 1;
+    text-align: center;
+}
+
+.break img {
+    width: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.offers h1 {
+    font-size: 35px;
+    font-weight: lighter;
+    color: #c7232f;
+    text-align: center;
+}
+
+.offers .heading-offers {
+    font-weight: bold;
+    color: #304068;
+}
+
+.offers .product {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px #b4bed5 solid;
+}
+
+.offers .product a {
+    text-decoration: none;
+}
+
+.offers .product:hover {
+    border: 1px #c7232f solid;
+    box-shadow: 0 0 0 2px #c7232f;
+}
+
+.offers .product img {
+    width: 100%;
+}
+
+.offers .product .product-name {
+    height: 3rem;
+    color: #304068;
+    font-size: 18px;
+}
+
+.offers .product .product-price {
+    display: flex;
+}
+
+.offers .product .product-price .price {
+    flex: 1;
+    color: #c7232f;
+    font-weight: bold;
+    font-size: 20px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.offers .product .product-price span {
+    color: #b4bed5;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+
+.offers .product .product-cart img {
+    display: none;
+    height: 3rem;
+}
+
+
+.offers .product:hover .product-cart img {
+    display: flex;
+}
+
+.offers .product:hover .product-name {
+    font-weight: bold;
+}
+
+.offers .show-all {
+    background-color: #c7232f;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 4rem;
+    text-align: center;
+    vertical-align: center;
+}
+
+.offers .show-all:hover {
+    background-color: #6e151c;
+
+}
+
+.all-offers-wrapper {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.all-offers {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.all-offers p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #c7232f;
+}
+
+a.all-offers p:hover {
+    background-color: #981b24;
+}
+
+.tags .skladem, .tags .zdarma, .tags .velikost {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.tags a {
+    color: #304068;
+}
+
+.tags .skladem .img-skladem, .tags .zdarma .img-zdarma, .tags .velikost .img-velikost {
+    background-color: #304068;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.5rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.tags .skladem .img-skladem {
+    background-image: url(img/skladem.png);
+}
+
+.tags .zdarma .img-zdarma {
+    background-image: url(img/zdarma.png);
+}
+
+.tags .velikost .img-velikost {
+    background-image: url(img/velikost.png);
+}
+
+.tags .skladem .text-skladem, .tags .zdarma .text-zdarma, .tags .velikost .text-velikost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.tags a {
+    text-decoration: none;
+}
+
+.tags a:hover {
+    text-decoration: underline;
+    color: #c7232f;
+}
+
+.tags a:hover + .img-skladem, .tags a:hover + .img-zdarma, .tags a:hover + .img-velikost {
+    background-color: #c7232f;
+}
+
+.newsletters {
+    background-image: url(img/boots.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 0.7rem 3rem;
+}
+
+.newsletters .heading {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.newsletters .prompt {
+    color: #606060;
+    font-size: 20px;
+    text-align: center;
+}
+
+.newsletters .email-prompt {
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+}
+
+.newsletters .email-prompt .email-input {
+    outline: solid #b6b6b6 1px;
+    background-color: white;
+    flex: 4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.newsletters .email-prompt .email-button {
+    flex: 1;
+    outline: solid #b6b6b6 1px;
+    background-color: #c7232f;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+
+.newsletters .email-prompt .email-button:hover {
+    background-color: #6e151c;
+    cursor: pointer;
+}
+
+.newsletters .email-prompt .email-input img {
+    filter: brightness(70%);
+    padding: 5px;
+    height: 1.2rem;
+}
+
+.newsletters .email-prompt .email-input input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.newsletters .email-prompt .email-input input:focus {
+    outline-width: 0;
+}
+
+/*  */
+@media (min-width: 640px) {
+    .offers .products-grid .not-mobile {
+        display: block;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .newsletters .email-prompt {
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .offers .all-offers-wrapper {
+        width: 20rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .slider .products .slider-button {
+        flex: 1;
+        outline: solid #b6b6b6 1px;
+        background-color: #c7232f;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        height: 2.5rem;
+        width: 10rem;
+    }
+
+    .slider .products .slider-button:hover {
+        background-color: #6e151c;
+        cursor: pointer;
+    }
+
+
+    .break .line {
+        flex: 5;
+    }
+
+    .slider {
+        background-image: url(img/slider-pic.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: 12vw;
+        margin-right: 12vw;
+        padding-bottom: 1rem;
+    }
+
+    .slider .products {
+        display: flex;
+        height: 15rem;
+    }
+
+    .slider .products div {
+        flex: 1;
+    }
+
+    .slider .products p {
+        font-size: 15px;
+        color: #c7232f;
+    }
+
+    .slider .products h1 {
+        font-size: 35px;
+        color: #304068;
+        font-weight: bold;
+    }
+
+    .slider div.text {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+    .slider .radios {
+        display: flex;
+        justify-content: center;
+    }
+
+    .radio-btn {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #e1e1e1;
+        border-radius: 50%;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+
+    .radio-btn .check {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: white;
+        display: inline-block;
+        transition: 0.2s background-color ease;
+    }
+
+    .radio-btn input {
+        display: none;
+    }
+
+    .radio-btn input:checked + .check {
+        background-color: #304068;
+    }
+
+    .radio-btn .check:hover {
+        cursor: pointer;
+    }
+
+    .types {
+        gap: 0.5rem;
+        height: 10rem;
+        flex-direction: row;
+    }
+
+    .types .boy, .types .girl, .types .how {
+        flex: 1;
+    }
+
+    .types .types-heading {
+        width: 50%;
+        height: 100%;
+    }
+
+    .types .types-heading {
+        flex: 1;
+    }
+
+    .types a {
+        font-size: 1.5vw;
+    }
+
+    .types .boy {
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .types .girl {
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .types .how {
+        background-size: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 1100px) {
+
+    .products-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .offers .products-grid .product {
+        margin: 0;
+    }
+
+    .slider .products .slider-button {
+        flex: 1;
+        outline: solid #b6b6b6 1px;
+        background-color: #c7232f;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        height: 3.5rem;
+        width: 12rem;
+        margin-top: 1rem;
+    }
+
+    .break .line {
+        flex: 8;
+    }
+
+    .slider {
+        background-size: 100%;
+    }
+
+    .slider .products {
+        height: 25vw;
+    }
+
+    .slider .products div.text {
+        margin-top: 3vw;
+    }
+
+    .slider .products p {
+        font-size: 2vw;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .slider .products h1 {
+        font-size: 3vw;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }
+
+    .types {
+        display: flex;
+        gap: 1rem;
+        height: 17rem;
+    }
+
+    .types .boy, .types .girl, .types .how {
+        flex: 1;
+    }
+
+    .types .types-heading {
+        width: 5%;
+        height: 100%;
+    }
+
+    .types .types-heading {
+        flex: 1;
+    }
+
+    .types a {
+        font-size: 1.7vw;
+    }
+
+    .types .boy {
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .types .girl {
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .types .how {
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .tags {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    .tags > div {
+        flex: 1;
+    }
+
+    .tags .skladem .img-skladem, .tags .zdarma .img-zdarma, .tags .velikost .img-velikost {
+        background-size: 3rem;
+        width: 5rem;
+        height: 5rem;
+    }
+}
