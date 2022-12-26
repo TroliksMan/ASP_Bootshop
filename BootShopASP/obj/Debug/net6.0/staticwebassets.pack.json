@@ -13,6 +13,58 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\blue.png",
+      "PackagePath": "staticwebassets\\img\\Products\\blue.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\bota1.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\bota2.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\bota3.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\bota4.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\bota5.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\brown_two.png",
+      "PackagePath": "staticwebassets\\img\\Products\\brown_two.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\gray_one.png",
+      "PackagePath": "staticwebassets\\img\\Products\\gray_one.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\gray_two.png",
+      "PackagePath": "staticwebassets\\img\\Products\\gray_two.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\pink.png",
+      "PackagePath": "staticwebassets\\img\\Products\\pink.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\pink_high.png",
+      "PackagePath": "staticwebassets\\img\\Products\\pink_high.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\pink_two.png",
+      "PackagePath": "staticwebassets\\img\\Products\\pink_two.png"
+    },
+    {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\pinkg_high_two.png",
+      "PackagePath": "staticwebassets\\img\\Products\\pinkg_high_two.png"
+    },
+    {
       "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\baby.png",
       "PackagePath": "staticwebassets\\img\\baby.png"
     },

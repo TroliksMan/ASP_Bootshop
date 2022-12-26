@@ -1,0 +1,19 @@
+﻿<div class="product">
+    <a href="product.html">
+        <img alt="product-image" src="~/@ViewBag.ImgPath">
+        <div class="product-name">
+            @ViewBag.Product.name
+        </div>
+        <div class="product-price">
+            <div class="price">
+                @if (ViewBag.ProductVariant.discount != 0) {
+                    <div>@((ViewBag.ProductVariant.price * (1 - ViewBag.ProductVariant.discount)).ToString("F")) Kč</div>
+                }
+                <span class="@(ViewBag.ProductVariant.discount == 0 ? "" : "stripped")">@ViewBag.ProductVariant.price.ToString("F") Kč</span>
+            </div>
+            <div class="product-cart">
+                <img alt="shop" src="~/img/shop.svg">
+            </div>
+        </div>
+    </a>
+</div>

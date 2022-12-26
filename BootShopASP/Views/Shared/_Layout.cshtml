@@ -7,9 +7,9 @@
     @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/> *@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/BootShopASP.styles.css" asp-append-version="true"/>
-    @* <link href="https://fonts.googleapis.com" rel="preconnect"> *@
-    @* <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"> *@
-    @* <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&display=swap" rel="stylesheet"> *@
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="font">
@@ -109,41 +109,51 @@
             <div class="divci">
                 <h3>Dívčí</h3>
                 <ul>
-                    <li>
-                        <a href="">Tenisky</a>
-                    </li>
-                    <li>
-                        <a href="">Holinky</a>
-                    </li>
-                    <li>
-                        <a href="">Sandály</a>
-                    </li>
-                    <li>
-                        <a href="">Baleríny</a>
-                    </li>
-                    <li>
-                        <a href="">Polobotky</a>
-                    </li>
+                    @foreach (var cat in ViewBag.CategoriesGirl) {
+                        <li>
+                            <a href="">@cat</a>
+                        </li>
+                    }
+                    @* <li> *@
+                    @*     <a href="">Tenisky</a> *@
+                    @* </li> *@
+                    @* <li> *@
+                    @*     <a href="">Holinky</a> *@
+                    @* </li> *@
+                    @* <li> *@
+                    @*     <a href="">Sandály</a> *@
+                    @* </li> *@
+                    @* <li> *@
+                    @*     <a href="">Baleríny</a> *@
+                    @* </li> *@
+                    @* <li> *@
+                    @*     <a href="">Polobotky</a> *@
+                    @* </li> *@
                 </ul>
             </div>
             <div class="chlapecke">
                 <h3>Chlapecké</h3>
                 <ul>
-                    <li>
-                        <a href="">Tenisky</a>
-                    </li>
-                    <li>
-                        <a href="">Holinky</a>
-                    </li>
-                    <li>
-                        <a href="">Sandály</a>
-                    </li>
-                    <li>
-                        <a href="">Baleríny</a>
-                    </li>
-                    <li>
-                        <a href="">Polobotky</a>
-                    </li>
+                    @foreach (var cat in ViewBag.CategoriesBoy) {
+                        <li>
+                            <a href="">@cat</a>
+                        </li>
+                    }
+                    @* <li> *@
+                    @*     <a href="">Tenisky</a> *@
+                    @* </li> *@
+                    @* <li> *@
+                    @*     <a href="">Holinky</a> *@
+                    @* </li> *@
+                    @* <li> *@
+                    @*     <a href="">Sandály</a> *@
+                    @* </li> *@
+                    @* <li> *@
+                    @*     <a href="">Baleríny</a> *@
+                    @* </li> *@
+                    @* <li> *@
+                    @*     <a href="">Polobotky</a> *@
+                    @* </li> *@
                 </ul>
             </div>
         </div>
@@ -173,7 +183,7 @@
     </address>
 </footer>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+@* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@
 <script src="~/js/site.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>
