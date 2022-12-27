@@ -6,4 +6,5 @@ public class mColor {
     [Key] public int id { get; set; }
     public string hexCode { get; set; }
     public string name { get; set; }
+    private List<mProductVariant> ProductVariants { get; set; }
 }

@@ -1,9 +1,9 @@
 ﻿using BootShopASP.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.EntityFrameworkCore;
 
 namespace BootShopASP.Attributes;
-
 public class SharedAttribute : Attribute, IActionFilter {
     private MyContext _myContext = new();
 

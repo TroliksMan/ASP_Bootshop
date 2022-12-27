@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using BootShopASP.Models;
 
 namespace BootShopASP.Controllers;
+
 [Shared]
 public class HomeController : Controller {
     private MyContext _myContext = new();
@@ -13,12 +14,14 @@ public class HomeController : Controller {
         // AddVariantsStart();
         // AddColors();
         // AddVariants();
+        // AddProductTypes();
         // this.ViewBag.Categories = _myContext.tbCategories.Where(x => x.parentID == null);
         // this.ViewBag.Chlapecke = _myContext.tbCategories.Where(x => x.leftIndex > 1 && x.rightIndex < 18);
         // this.ViewBag.Divci = _myContext.tbCategories.Where(x => x.leftIndex > 19 && x.rightIndex < 38);
         // this.ViewBag.Doplnky = _myContext.tbCategories.Where(x => x.leftIndex > 39 && x.rightIndex < 42);
         // this.ViewBag.Ostatni = _myContext.tbCategories.Where(x => x.leftIndex > 43 && x.rightIndex < 48);
 
+        var c = _myContext.tbProductTypes.ToList();
 
         List<(mProduct, mProductVariant, string)> pr = new();
         var products = _myContext.tbProducts.ToList().OrderBy(x => x.createDate).Take(8);
@@ -28,6 +31,7 @@ public class HomeController : Controller {
                     _myContext.tbImages.First(x => x.productID == product.id && x.isPrimary == true).path)
             );
         }
+
         this.ViewBag.Products = pr;
         return View();
     }
@@ -177,6 +181,25 @@ public class HomeController : Controller {
             hexCode = "#312bd9",
             name = "PINK"
         });
+
+        this._myContext.SaveChanges();
+    }
+
+    private void AddProductTypes() {
+        foreach (mProduct myContextTbProduct in this._myContext.tbProducts) {
+            this._myContext.tbProductTypes.Add(new mProductType() {
+                productID = myContextTbProduct.id,
+                typeID = 1
+            });
+            this._myContext.tbProductTypes.Add(new mProductType() {
+                productID = myContextTbProduct.id,
+                typeID = 2
+            });
+            this._myContext.tbProductTypes.Add(new mProductType() {
+                productID = myContextTbProduct.id,
+                typeID = 3
+            });
+        }
 
         this._myContext.SaveChanges();
     }

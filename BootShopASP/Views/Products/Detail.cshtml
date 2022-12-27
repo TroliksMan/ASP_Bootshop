@@ -1,8 +1,33 @@
-﻿@{
+﻿@using BootShopASP.Controllers
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using BootShopASP.Components
+@{
     ViewBag.Title = "Product";
 }
+
+<script>
+    function ChangeVariant(){
+        alert("asd");
+    }
+    
+    
+    function Update() {
+        var url = '?handler=FuckYou';
+            $.ajax({
+                type: "GET",
+                url: '?handler=FuckYou',
+                success: function (data) {
+                    alert(data);
+                },
+                error: function (result) {
+                    alert("fail");
+                }
+            })
+    }
+</script>
+
 <div class="breadcrumb padding-10 font">
-    <a href="index.html">Domů</a> > <a href="index.html">Dívčí boty</a> > <a href="index.html">Tenisky</a>
+    <a asp-action="Index" asp-controller="Home">Domů</a> > <a href="index.html">@ViewBag.Category.Category.name</a> > <a href="index.html">@ViewBag.Category.name</a>
 </div>
 <div class="product padding-10 font">
     <div class="img-description-flex">
@@ -23,72 +48,34 @@
         <div class="product-description">
             <div class="header-img">
                 <div class="heading">
-                    <h1>Benjamid&nbsp;Velctro Dark Grey</h1>
+                    <h1>@ViewBag.Product.name</h1>
                 </div>
             </div>
             <div class="description not-mobile">
-                Tyhle botky mají styl! Kožené barefoot tenisky vhodné na užší až normální nožku. Vyrobené z kvalitní
-                hladké kůže v kombinaci s textilem. Tenká podešev přesahuje přes prsty, aby byla botka chráněná před
-                poškozením.
+                @ViewBag.Product.description
             </div>
             <hr>
             <div class="product-properties">
                 <div class="color">
                     <h3>Barva</h3>
                     <div class="radios-color">
-                        <label class="radio-btn">
-                            <input type="radio" name="color" checked>
-                            <span class="check blue"></span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="color">
-                            <span class="check black"></span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="color">
-                            <span class="check red"></span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="color">
-                            <span class="check blue"></span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="color">
-                            <span class="check green"></span>
-                        </label>
+                        @foreach (mProductVariant item in ViewBag.Variants) {
+                            <label class="radio-btn">
+                                <input runat="server" onchange="Update()" type="radio" name="color">
+                                <span class="check" style="background-color: @item.Color.hexCode"></span>
+                            </label>
+                        }
                     </div>
                 </div>
                 <div class="size">
                     <h3>Velikost</h3>
                     <div class="radios-size">
-                        <label class="radio-btn">
-                            <input type="radio" name="size">
-                            <span class="check">21</span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="size" disabled>
-                            <span class="check"> 22</span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="size">
-                            <span class="check"> 23</span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="size" checked>
-                            <span class="check">24</span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="size">
-                            <span class="check">25</span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="size">
-                            <span class="check">26</span>
-                        </label>
-                        <label class="radio-btn">
-                            <input type="radio" name="size">
-                            <span class="check">27</span>
-                        </label>
+                        @foreach (mProductVariant item in ViewBag.Variants) {
+                            <label class="radio-btn">
+                                <input runat="server" onchange="Update()" type="radio" name="size">
+                                <span class="check">@item.size</span>
+                            </label>
+                        }
                     </div>
                 </div>
             </div>
@@ -96,11 +83,11 @@
             <div class="price-cart">
                 <div class="price-wrapper">
                     <h1>Skladem</h1>
-                    <div class="strip">
-                        699 Kč
-                    </div>
                     <div class="price">
-                        529 Kč
+                        @* @if (ViewBag.ProductVariant.discount != 0) { *@
+                        @*     <div>@((ViewBag.ProductVariant.price * (1 - ViewBag.ProductVariant.discount)).ToString("F")) Kč</div> *@
+                        @* } *@
+                        @* <span class="@(ViewBag.ProductVariant.discount == 0 ? "" : "stripped")">@ViewBag.ProductVariant.price.ToString("F") Kč</span> *@
                     </div>
                 </div>
                 <div class="cart">
@@ -118,20 +105,7 @@
         <div class="info">
             <h2>Informace o produktu</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta dolorum incidunt
-                recusandae vel. Amet beatae, ea error et iusto nam nesciunt nulla, numquam optio perspiciatis
-                provident quasi, quis ratione?
-            </p>
-            <p>
-                <span class="mid-heading">Sed quia consequuntur</span><br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta dolorum incidunt
-                recusandae vel. Amet beatae, ea error et iusto nam nesciunt nulla, numquam optio perspiciatis
-                provident quasi, quis ratione?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta dolorum incidunt
-                recusandae vel. Amet beatae, ea error et iusto nam nesciunt nulla, numquam optio perspiciatis
-                provident quasi, quis ratione?
+                @ViewBag.Product.description
             </p>
         </div>
         <table class="params">
@@ -143,23 +117,23 @@
             <tbody>
             <tr>
                 <th>Barva</th>
-                <td>Tmavě modrá</td>
+                <td>@string.Join(", ", ((IQueryable<mProductVariant>)(ViewBag.Variants)).Select(x => x.Color.name))</td>
             </tr>
             <tr>
                 <th>Druh</th>
-                <td>Do deště, turistické</td>
+                <td>@string.Join(", ", ViewBag.Types)</td>
             </tr>
             <tr>
                 <th>Materiál</th>
-                <td>Guma</td>
+                <td>@ViewBag.Product.material</td>
             </tr>
             <tr>
                 <th>Určení</th>
-                <td>Chlapecké</td>
+                <td>@ViewBag.Category.Category.name</td>
             </tr>
             <tr>
                 <th>Kód</th>
-                <td>BG004-001</td>
+                <td>@ViewBag.Product.id</td>
             </tr>
             </tbody>
         </table>
@@ -175,7 +149,7 @@
 <div class="offers font padding-10">
     <h1>Mohlo by se <span class="heading-offers">Vám&nbsp;líbit</span></h1>
     <div class="products-grid">
-        @foreach (var item in ViewBag.Products) {
+        @foreach ((mProduct, mProductVariant, string) item in ViewBag.Products) {
             <vc:Product-Card products="item"></vc:Product-Card>
         }
     </div>

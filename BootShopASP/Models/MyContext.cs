@@ -13,6 +13,8 @@ public class MyContext : DbContext {
     public DbSet<mPayment> tbPayments { get; set; }
     public DbSet<mProduct> tbProducts { get; set; }
     public DbSet<mProductVariant> tbProductVariants { get; set; }
+    public DbSet<mType> tbTypes { get; set; }
+    public DbSet<mProductType> tbProductTypes { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
         optionsBuilder.UseMySQL(

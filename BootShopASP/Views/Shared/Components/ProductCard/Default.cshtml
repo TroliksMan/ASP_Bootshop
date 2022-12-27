@@ -1,5 +1,5 @@
 ﻿<div class="product">
-    <a href="product.html">
+    <a asp-controller="Products" asp-action="Detail" asp-route-productID="@ViewBag.Product.id">
         <img alt="product-image" src="~/@ViewBag.ImgPath">
         <div class="product-name">
             @ViewBag.Product.name

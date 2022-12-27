@@ -5,8 +5,8 @@ namespace BootShopASP.Models;
 
 public class mProductVariant {
     [Key] public int id { get; set; }
-    [ForeignKey("Product")] public int productID { get; set; }
-    [ForeignKey("Color")] public int colorID { get; set; }
+    public int productID { get; set; }
+    public int colorID { get; set; }
     public int size { get; set; }
     public int stock { get; set; }
     public double price { get; set; }
