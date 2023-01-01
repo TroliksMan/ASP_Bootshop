@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using BootShopASP.Attributes;
+﻿using BootShopASP.Attributes;
 using Microsoft.AspNetCore.Mvc;
 using BootShopASP.Models;
 
@@ -39,14 +38,14 @@ public class HomeController : Controller {
     private void AddImages() {
         for (int i = 1; i < 20; i++) {
             this._myContext.tbImages.Add(new mImage() {
-                isPrimary = true,
+                isPrimary = false,
                 productID = i,
-                path = "img/Products/blue.png"
+                path = "img/Products/bota4.png"
             });
             this._myContext.tbImages.Add(new mImage() {
                 isPrimary = false,
                 productID = i,
-                path = "img/Products/pink_high.png"
+                path = "img/Products/bota5.png"
             });
         }
 

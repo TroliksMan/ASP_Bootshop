@@ -1,93 +1,96 @@
-﻿@using BootShopASP.Controllers
-@using Microsoft.AspNetCore.Mvc.TagHelpers
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
 @using BootShopASP.Components
+@model BootShopASP.Models.mProduct
+
+
 @{
     ViewBag.Title = "Product";
 }
-
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>
-    function ChangeVariant(){
-        alert("asd");
-    }
-    
-    
     function Update() {
-        var url = '?handler=FuckYou';
-            $.ajax({
-                type: "GET",
-                url: '?handler=FuckYou',
-                success: function (data) {
-                    alert(data);
-                },
-                error: function (result) {
-                    alert("fail");
-                }
-            })
+        console.log("Send")
+
+        document.forms["formVariants"].submit();
+        
     }
-</script>
+  </script>
 
 <div class="breadcrumb padding-10 font">
-    <a asp-action="Index" asp-controller="Home">Domů</a> > <a href="index.html">@ViewBag.Category.Category.name</a> > <a href="index.html">@ViewBag.Category.name</a>
+    <a asp-controller="Home" asp-action="Index">Domů</a> > <a href="index.html">@ViewBag.Category.Category.name</a> > <a href="index.html">@ViewBag.Category.name</a>
 </div>
 <div class="product padding-10 font">
     <div class="img-description-flex">
         <div class="images">
-            <a class="pri" href="">
-                <img src="~/img/bota1.png" alt="boot-primary">
+            <a class="pri" href="~/@Model.Images[0].path" target="_blank" rel="noreferrer">
+                <img src="~/@Model.Images[0].path" alt="boot-primary">
             </a>
-            <a class="sec" href="">
-                <img src="~/img/bota2.png" alt="boot-second">
+            <a class="sec" href="~/@Model.Images[1].path" target="_blank" rel="noreferrer">
+                <img src="~/@Model.Images[1].path" alt="boot-second">
             </a>
-            <a class="thi" href="">
-                <img src="~/img/bota3.png" alt="boot-third">
+            <a class="thi" href="~/@Model.Images[2].path" target="_blank" rel="noreferrer">
+                <img src="~/@Model.Images[2].path" alt="boot-third">
             </a>
-            <a class="fou" href="">
-                <img src="~/img/bota4.png" alt="boot-fourth">
+            <a class="fou" href="~/@Model.Images[3].path" target="_blank" rel="noreferrer">
+                <img src="~/@Model.Images[3].path" alt="boot-fourth">
             </a>
         </div>
         <div class="product-description">
             <div class="header-img">
                 <div class="heading">
-                    <h1>@ViewBag.Product.name</h1>
+                    <h1>@Model.name</h1>
                 </div>
             </div>
             <div class="description not-mobile">
-                @ViewBag.Product.description
+                @Model.description
             </div>
             <hr>
-            <div class="product-properties">
-                <div class="color">
-                    <h3>Barva</h3>
-                    <div class="radios-color">
-                        @foreach (mProductVariant item in ViewBag.Variants) {
-                            <label class="radio-btn">
-                                <input runat="server" onchange="Update()" type="radio" name="color">
-                                <span class="check" style="background-color: @item.Color.hexCode"></span>
-                            </label>
-                        }
+            <form id="formVariants" asp-controller="Products" asp-action="Detail" asp-route-productID="@Model.id" class="">
+                <div class="product-properties">
+                    <div class="color">
+                        <h3>Barva</h3>
+                        <div class="radios-color">
+                            @foreach (mColor item in ((IQueryable<mProductVariant>)ViewBag.Variants).Select(x => x.Color).ToList().DistinctBy(x => x.name)) {
+                                <label class="radio-btn">
+                                    @if (item.id == ViewBag.Variant.colorID) {
+                                        <input checked value="@item.id" asp-area-variantID="@item.id" onchange="Update()" type="radio" name="colorID">
+                                    }
+                                    else {
+                                        <input value="@item.id" asp-area-variantID="@item.id" onchange="Update()" type="radio" name="colorID">
+                                    }
+                                    <span class="check" style="background-color: @item.hexCode"></span>
+
+                                </label>
+                            }
+                        </div>
+                    </div>
+                    <div class="size">
+                        <h3>Velikost</h3>
+                        <div class="radios-size">
+                            @foreach (mProductVariant item in ((IQueryable<mProductVariant>)ViewBag.Variants).ToList().DistinctBy(x => x.size)) {
+                                <label class="radio-btn">
+                                    @if (item.size == ViewBag.Variant.size) {
+                                        <input checked value="@item.size" onchange="Update()" type="radio" name="size">
+                                    }
+                                    else {
+                                        <input @(((List<int>)ViewBag.sizes).Contains(item.size) ? "" : "disabled") onchange="Update()" value="@item.size" type="radio" name="size">
+                                    }
+                                    <span class="check @(((List<int>)ViewBag.sizes).Contains(item.size) ? "" : "size-strip")">@item.size</span>
+                                </label>
+                            }
+                        </div>
                     </div>
                 </div>
-                <div class="size">
-                    <h3>Velikost</h3>
-                    <div class="radios-size">
-                        @foreach (mProductVariant item in ViewBag.Variants) {
-                            <label class="radio-btn">
-                                <input runat="server" onchange="Update()" type="radio" name="size">
-                                <span class="check">@item.size</span>
-                            </label>
-                        }
-                    </div>
-                </div>
-            </div>
+            </form>
             <hr>
             <div class="price-cart">
                 <div class="price-wrapper">
                     <h1>Skladem</h1>
                     <div class="price">
-                        @* @if (ViewBag.ProductVariant.discount != 0) { *@
-                        @*     <div>@((ViewBag.ProductVariant.price * (1 - ViewBag.ProductVariant.discount)).ToString("F")) Kč</div> *@
-                        @* } *@
-                        @* <span class="@(ViewBag.ProductVariant.discount == 0 ? "" : "stripped")">@ViewBag.ProductVariant.price.ToString("F") Kč</span> *@
+                        @if (ViewBag.Variant.discount != 0) {
+                            <div>@((ViewBag.Variant.price * (1 - ViewBag.Variant.discount)).ToString("F")) Kč</div>
+                        }
+                        <span class="@(ViewBag.Variant.discount == 0 ? "" : "stripped")">@ViewBag.Variant.price.ToString("F") Kč</span>
                     </div>
                 </div>
                 <div class="cart">
@@ -105,7 +108,7 @@
         <div class="info">
             <h2>Informace o produktu</h2>
             <p>
-                @ViewBag.Product.description
+                @Model.description
             </p>
         </div>
         <table class="params">
@@ -125,7 +128,7 @@
             </tr>
             <tr>
                 <th>Materiál</th>
-                <td>@ViewBag.Product.material</td>
+                <td>@Model.material</td>
             </tr>
             <tr>
                 <th>Určení</th>
@@ -133,7 +136,7 @@
             </tr>
             <tr>
                 <th>Kód</th>
-                <td>@ViewBag.Product.id</td>
+                <td>@Model.id</td>
             </tr>
             </tbody>
         </table>

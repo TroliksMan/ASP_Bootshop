@@ -4,7 +4,9 @@
     }
 
 }
-
+.size-strip {
+    text-decoration: line-through;
+}
 .breadcrumb, .product, .break, .offers, .tags {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
@@ -54,6 +56,20 @@ main .tags .zdarma .img-zdarma {
 main .tags .velikost .img-velikost {
     background-image: url(../img/velikost.png);
 }
+
+.price span.stripped {
+    color: #b4bed5;
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+
+.price span:not(.stripped) {
+    color: #304068;
+}
+
+
 
 main .tags .skladem .text-skladem, main .tags .zdarma .text-zdarma, main .tags .velikost .text-velikost {
     display: flex;

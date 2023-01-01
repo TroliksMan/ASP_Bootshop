@@ -591,7 +591,9 @@ a.all-offers p:hover[b-hybj1jw5b8] {
     }
 
 }
-
+.size-strip[b-qb2dzerz95] {
+    text-decoration: line-through;
+}
 .breadcrumb[b-qb2dzerz95], .product[b-qb2dzerz95], .break[b-qb2dzerz95], .offers[b-qb2dzerz95], .tags[b-qb2dzerz95] {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
@@ -641,6 +643,20 @@ main .tags .zdarma .img-zdarma[b-qb2dzerz95] {
 main .tags .velikost .img-velikost[b-qb2dzerz95] {
     background-image: url(../img/velikost.png);
 }
+
+.price span.stripped[b-qb2dzerz95] {
+    color: #b4bed5;
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+
+.price span:not(.stripped)[b-qb2dzerz95] {
+    color: #304068;
+}
+
+
 
 main .tags .skladem .text-skladem[b-qb2dzerz95], main .tags .zdarma .text-zdarma[b-qb2dzerz95], main .tags .velikost .text-velikost[b-qb2dzerz95] {
     display: flex;
@@ -1170,7 +1186,6 @@ thead[b-qb2dzerz95] {
     color: #304068;
     font-size: 22px;
     font-weight: bold;
-
 }
 
 .product .product-price[b-rw81xjywxe] {
