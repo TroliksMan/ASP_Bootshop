@@ -331,7 +331,9 @@ hr {
     display: flex;
 
 }
-
+.cart button.disabled {
+    background-color: #83161e;
+}
 .cart button a {
     font-size: 18px;
     color: white;
@@ -343,7 +345,7 @@ hr {
     gap: 1rem;
 }
 
-.cart button:hover {
+.cart button:not(.disabled):hover {
     cursor: pointer;
     background-color: #981b24;
 }

@@ -918,7 +918,9 @@ hr[b-qb2dzerz95] {
     display: flex;
 
 }
-
+.cart button.disabled[b-qb2dzerz95] {
+    background-color: #83161e;
+}
 .cart button a[b-qb2dzerz95] {
     font-size: 18px;
     color: white;
@@ -930,7 +932,7 @@ hr[b-qb2dzerz95] {
     gap: 1rem;
 }
 
-.cart button:hover[b-qb2dzerz95] {
+.cart button:not(.disabled):hover[b-qb2dzerz95] {
     cursor: pointer;
     background-color: #981b24;
 }
@@ -1159,6 +1161,7 @@ thead[b-qb2dzerz95] {
         padding: 1rem 8px;
     }
 }
+/* _content/BootShopASP/Views/Products/Index.cshtml.rz.scp.css */
 /* _content/BootShopASP/Views/Shared/Components/ProductCard/Default.cshtml.rz.scp.css */
 .heading-offers[b-rw81xjywxe] {
     font-weight: bold;

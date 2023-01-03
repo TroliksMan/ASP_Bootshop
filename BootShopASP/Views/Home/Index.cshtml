@@ -1,30 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Home";
 }
-@* <h1>Chlapecke</h1> *@
-@* @foreach (var item in ViewBag.Chlapecke) { *@
-@*     <p>@item.name</p> *@
-@* } *@
-@* <h1>Divci</h1> *@
-@* @foreach (var item in ViewBag.Divci) { *@
-@*     <p>@item.name</p> *@
-@* } *@
-@* <h1>Doplnky</h1> *@
-@* @foreach (var item in ViewBag.Doplnky) { *@
-@*     <p>@item.name</p> *@
-@* } *@
-@* <h1>Ostatni</h1> *@
-@* @foreach (var item in ViewBag.Ostatni) { *@
-@*     <p>@item.name</p> *@
-@* } *@
-
 <div class="slider font  not-mobile">
     <div class="products">
         <div class="blank"></div>
         <div class="text">
             <p>NOVÁ DÍVČÍ KOLEKCE<br>ŠETRNÁ&nbsp;K&nbsp;DĚTSKÝM&nbsp;NOHÁM</p>
             <h1>NEJEN DO MĚSTA, ALE&nbsp;I&nbsp;DO&nbsp;PŘÍRODY</h1>
-            <button class="slider-button">zobrazit produkty</button>
+            <a asp-action="Index" asp-controller="Products"><button class="slider-button">zobrazit produkty</button></a>
         </div>
     </div>
     <div class="radios">
@@ -69,7 +52,7 @@
         }
     </div>
     <div class="all-offers-wrapper">
-        <a class="all-offers" href="">
+        <a asp-action="Index" asp-controller="Products" class="all-offers">
             <p>zobrazit celou nabídku</p>
         </a>
     </div>

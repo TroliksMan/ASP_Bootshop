@@ -331,7 +331,9 @@ hr[b-qb2dzerz95] {
     display: flex;
 
 }
-
+.cart button.disabled[b-qb2dzerz95] {
+    background-color: #83161e;
+}
 .cart button a[b-qb2dzerz95] {
     font-size: 18px;
     color: white;
@@ -343,7 +345,7 @@ hr[b-qb2dzerz95] {
     gap: 1rem;
 }
 
-.cart button:hover[b-qb2dzerz95] {
+.cart button:not(.disabled):hover[b-qb2dzerz95] {
     cursor: pointer;
     background-color: #981b24;
 }

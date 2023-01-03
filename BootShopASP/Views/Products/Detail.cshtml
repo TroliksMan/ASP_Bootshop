@@ -85,7 +85,12 @@
             <hr>
             <div class="price-cart">
                 <div class="price-wrapper">
-                    <h1>Skladem</h1>
+                    @if (ViewBag.Variant.stock > 0) {
+                        <h1>Skladem</h1>
+                    }
+                    else {
+                        <h1>Není skladem</h1>
+                    }
                     <div class="price">
                         @if (ViewBag.Variant.discount != 0) {
                             <div>@((ViewBag.Variant.price * (1 - ViewBag.Variant.discount)).ToString("F")) Kč</div>
@@ -94,12 +99,22 @@
                     </div>
                 </div>
                 <div class="cart">
-                    <button class="not-desktop">
-                        <a href="demand.html"><img src="~/img/shop.svg" alt="cart">Do košíku</a>
-                    </button>
-                    <button class="not-mobile">
-                        <a href="demand.html"><img src="~/img/shop.svg" alt="cart">Přidat do košíku</a>
-                    </button>
+                    @if (ViewBag.Variant.stock > 0) {
+                        <button class="not-desktop">
+                            <a href="demand.html"><img src="~/img/shop.svg" alt="cart">Do košíku</a>
+                        </button>
+                        <button class="not-mobile">
+                            <a href="demand.html"><img src="~/img/shop.svg" alt="cart">Přidat do košíku</a>
+                        </button>
+                    }
+                    else {
+                        <button class="not-desktop disabled">
+                            <a><img src="~/img/shop.svg" alt="cart">Nelze</a>
+                        </button>
+                        <button class="not-mobile disabled">
+                            <a><img src="~/img/shop.svg" alt="cart">Není k dispozici</a>
+                        </button>
+                    }
                 </div>
             </div>
         </div>
