@@ -60,7 +60,7 @@ public class ProductsController : Controller {
         this.ViewBag.sizes = this._myContext.tbProductVariants
             .Where(x => x.productID == productID && x.colorID == variant.colorID).Select(x => x.size)
             .ToList();
-// -jhkasghdfkjlashfdakfsdajlkhfashjkd
+
 
         return View(productModel);
     }
