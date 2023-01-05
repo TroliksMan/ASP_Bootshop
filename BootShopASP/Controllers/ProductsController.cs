@@ -12,11 +12,6 @@ public class ProductsController : Controller {
 
     public IActionResult Index(int from, List<mType> types = null, mCategory category = null,
         List<mColor> colors = null, List<int> sizes = null, string search = null, Order order = Order.nameASC) {
-        
-        
-        
-        
-        
         return View();
     }
 
@@ -47,7 +42,8 @@ public class ProductsController : Controller {
             .Select(x => x.Type.name);
         int catID = productModel.Category.id;
         this.ViewBag.Category = this._myContext.tbCategories.Include(x => x.Category).First(x => x.id == catID);
-
+    
+        
         mProductVariant variant = null;
         if (variantID == -1)
             variant = variants.FirstOrDefault();
@@ -77,13 +73,12 @@ public class ProductsController : Controller {
 
 
         var variant = variants.FirstOrDefault(x => x.size == size && x.colorID == colorID);
-        
-        if (variant == null) {
-            variant = this._myContext.tbProductVariants.Where(x => x.colorID == colorID && x.productID == productID)
-                .Include(x => x.Color).FirstOrDefault();
-        }
-        
-        return RedirectToAction("Detail", "Products", new {productID = productID, variantID = variant.id});
+
+        if (variant == null)
+            variant = variants.Include(x => x.Color)
+                .FirstOrDefault(x => x.colorID == colorID && x.productID == productID);
+
+        return RedirectToAction("Detail", "Products", new { productID = productID, variantID = variant.id });
     }
 }
 

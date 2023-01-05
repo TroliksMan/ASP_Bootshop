@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BootShopASP.bundle.scp.css"
     },
     {
+      "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\Admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin.css"
+    },
+    {
       "Id": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

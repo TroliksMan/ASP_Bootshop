@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xzayasyDFK9Lr+Wctv2n67Z0/+Q9qEMyX7BzglEe+i0=",
+  "Hash": "9AGV7F2ukasHX5eGMt+gGt6yGLz8AQqgbJwqpJJT99Y=",
   "Source": "BootShopASP",
   "BasePath": "_content/BootShopASP",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BootShopASP.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\Admin.css",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "css/Admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Admin.css"
     },
     {
       "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\site.css",
