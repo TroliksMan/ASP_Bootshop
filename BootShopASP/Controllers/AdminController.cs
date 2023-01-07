@@ -16,10 +16,12 @@ public class AdminController : Controller {
 
 
     public IActionResult Login() {
+        // TODO: Authorization
         return View();
     }
 
     public IActionResult Dashboard() {
+        // TODO: Make dashboard, some statistics
         return View();
     }
 
@@ -44,6 +46,7 @@ public class AdminController : Controller {
     }
 
     [ProductEdit]
+    // TODO: Style product edit
     public IActionResult ProductEdit(int id) {
         mProduct product = _myContext.tbProducts.Include(x => x.Images).Include(x => x.ProductVariants)
             .Include(x => x.Category).FirstOrDefault(x => x.id == id);
@@ -62,10 +65,12 @@ public class AdminController : Controller {
     }
 
     public IActionResult Orders(int pagingIndex = 0) {
+        // TODO: Make easy order page
         return View();
     }
 
     public IActionResult Categories(int pagingIndex = 0) {
+        // TODO: Hopefuly simple category editor
         return View();
     }
 
@@ -112,7 +117,7 @@ public class AdminController : Controller {
         return PartialView("RemoveProductPartial");
     }
 
-    // TODO: Finish this
+    // TODO: Finish product removal
     [HttpPost]
     public IActionResult RemoveProductPost(int id) {
         ViewBag.ProductID = id;
