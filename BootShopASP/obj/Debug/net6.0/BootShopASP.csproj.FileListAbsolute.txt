@@ -64,3 +64,5 @@ D:\Data\Coding\C#\BootShopASP\BootShopASP\bin\Debug\net6.0\Pomelo.EntityFramewor
 D:\Data\Coding\C#\BootShopASP\BootShopASP\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Data\Coding\C#\BootShopASP\BootShopASP\obj\Debug\net6.0\scopedcss\Views\Products\Index.cshtml.rz.scp.css
 D:\Data\Coding\C#\BootShopASP\BootShopASP\obj\Debug\net6.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+D:\Data\Coding\C#\BootShopASP\BootShopASP\bin\Debug\net6.0\BeginCollectionItemCore.dll
+D:\Data\Coding\C#\BootShopASP\BootShopASP\obj\Debug\net6.0\BootShopASP.MvcApplicationPartsAssemblyInfo.cs

@@ -175,15 +175,6 @@ main .newsletters .email-prompt .email-input input:focus {
     margin-bottom: -5px;
 }
 
-.images a:hover {
-    cursor: pointer;
-    background: #c7232f;
-}
-
-.images a:hover img {
-    filter: opacity(50%);
-}
-
 .images .pri {
     grid-area: primary;
 }

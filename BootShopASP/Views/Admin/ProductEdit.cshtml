@@ -1,0 +1,61 @@
+﻿@model BootShopASP.Models.mProductEdit
+
+@{
+    ViewBag.Title = "Edit";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Detail.css">
+</head>
+
+<p>@ViewBag.prod</p>
+<h2>Edit</h2>
+<form asp-action="PostProductEdit">
+    @Html.HiddenFor(x => x.Product.id)
+
+    <label>
+        Name:
+        <input asp-for="Product.name">
+        <span class="alert-danger" asp-validation-for="Product.name"></span>
+    </label>
+    <label>
+        Brand:
+        <input asp-for="Product.brand">
+        <span class="alert-danger" asp-validation-for="Product.brand"></span>
+    </label>
+    <label>
+        Description:
+        <textarea asp-for="Product.description" id="" cols="50" rows="5"></textarea>
+        <span class="alert-danger" asp-validation-for="Product.description"></span>
+    </label>
+    <label>
+        Material:
+        <input asp-for="Product.material">
+        <span asp-validation-for="Product.material"></span>
+    </label>
+    <div asp-validation-for="Model.ProductVariants" id="variants">
+        @for (int i = 0; i < Model.ProductVariants.Count; i++) {
+            Html.RenderPartial("ProductEditPartial", Model.ProductVariants[i]);
+        }
+        <span class="alert-danger" asp-validation-for="ProductVariants"></span>
+    </div>
+    <label>
+        Category:
+        <select asp-for="Product.categoryID">
+            @foreach (mCategory main in ViewBag.MainCats) {
+                <optgroup label="@main.name">
+                    @foreach (mCategory sub in (ViewBag.Categories as List<mCategory>).Where(x => x.parentID == main.id)) {
+                        @if (Model.Product.categoryID == sub.id) {
+                            <option selected value="@sub.id">@sub.name</option>
+                        }
+                        else {
+                            <option value="@sub.id">@sub.name</option>
+                        }
+                    }
+                </optgroup>
+            }
+        </select>
+        <span class="alert-danger" asp-validation-for="Product.categoryID"></span>
+    </label>
+    <a id="addAnother" href="#">Add another</a>
+    <button type="submit">Submit</button>
+</form>

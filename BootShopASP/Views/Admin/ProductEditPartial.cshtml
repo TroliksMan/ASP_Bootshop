@@ -1,0 +1,57 @@
+﻿@using HtmlHelpers.BeginCollectionItemCore
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model mProductVariant
+
+@{
+    var price = Model is not null ? Model.price.ToString("F").Replace(',', '.') : "1";
+    var discount = Model is not null ? Model.discount.ToString("F").Replace(',', '.') : "0";
+    var VAT = Model is not null ? Model.VAT.ToString() : "21";
+    var stock = Model is not null ? Model.stock : 0;
+}
+<script>
+console.log(@price)
+console.log(@discount)
+console.log(@VAT)
+console.log(@stock)
+</script>
+<div>
+    @using (Html.BeginCollectionItem("ProductVariants")) {
+        @Html.HiddenFor(x => x.id)
+        @Html.HiddenFor(x => x.colorID)
+        @Html.HiddenFor(x => x.Color.id)
+
+        <label>
+            Price:
+            <input asp-for="price">
+            <span class="alert-danger" asp-validation-for="price"></span>
+        </label>
+        <label>
+            Discount:
+            <input asp-for="discount">
+            <span class="alert-danger" asp-validation-for="discount"></span>
+        </label>
+        <label>
+            VAT:
+            <input min="0" asp-for="VAT">
+            <span asp-validation-for="VAT"></span>
+        </label>
+        <label>
+            Stock:
+            <input min="0" asp-for="stock">
+            <span class="alert-danger" asp-validation-for="stock"></span>
+        </label>
+        <label>
+            Size:
+            <input asp-for="size">
+        </label>
+        <label>
+            Color name:
+            <input asp-for="Color.name">
+        </label>
+        <label>
+            Color:
+            <input type="color" asp-for="@Model.Color.hexCode">
+        </label>
+        <a href="#" onclick="$(this).parent().remove();">Remove</a>
+    }
+</div>

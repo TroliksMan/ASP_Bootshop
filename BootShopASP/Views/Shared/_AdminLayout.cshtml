@@ -103,7 +103,7 @@
                 </div>
             </nav>
 
-            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <main class="pt-2 col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 @RenderBody()
             </main>
         </div>
@@ -120,7 +120,8 @@
 
 <script>
     currentLink = document.querySelector('a[href="' + location.pathname + '"]') 
-    currentLink.className +=' current-link'
+    if (currentLink != null)
+        currentLink.className +=' current-link'
 </script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>

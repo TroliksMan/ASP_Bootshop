@@ -2,7 +2,13 @@ body, html {
     padding: 0;
     margin: 0;
 }
-
+.modal-open {
+    padding-right: 0!important;
+}
+#RemoveProduct {
+    background-color: rgba(0, 0, 0, 0.67);
+    padding-top: 10rem;
+}
 .font {
     font-family: "Libre Franklin", sans-serif;
 }
@@ -634,11 +640,6 @@ main .newsletters .email-prompt .email-input input:focus {
 
 .images a:hover {
     cursor: pointer;
-    background: #c7232f;
-}
-
-.images a:hover img {
-    filter: opacity(50%);
 }
 
 .images .pri {
@@ -995,3 +996,12 @@ thead {
     height: 8rem;
     width: 8rem;
 }
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-3 {
+    flex: 3;
+}
+

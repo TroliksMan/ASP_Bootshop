@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9AGV7F2ukasHX5eGMt+gGt6yGLz8AQqgbJwqpJJT99Y=",
+  "Hash": "8sRTioxv96qKJPHLASUlEbnu5S3+Yi7Sa11DJMNlLlc=",
   "Source": "BootShopASP",
   "BasePath": "_content/BootShopASP",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Admin.css"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\Detail.css",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "css/Detail.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Detail.css"
     },
     {
       "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\site.css",

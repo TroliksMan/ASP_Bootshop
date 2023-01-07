@@ -1,4 +1,26 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿// Write your JavaScript code.
+$(function () {
+    var PlaceHolderElement = $('#PlaceHolderHere');
+    $('button[data-toggle="ajax-modal"]').click(function (event) {
+        var url = $(this).data('url');
+        $.get(url).done(function (data) {
+            PlaceHolderElement.html(data);
+            PlaceHolderElement.find('.modal').modal('show');
+        });
+        PlaceHolderElement.on('click', '[data-save="modal"]', function (event) {
+            console.log('Remove');
+            PlaceHolderElement.find('.modal').modal('hide');
+        })
 
-// Write your JavaScript code.
+        PlaceHolderElement.on('click', '[data-dismiss="modal"]', function (event) {
+            console.log('Close');
+            PlaceHolderElement.find('.modal').modal('hide');
+        })
+    })
+})
+
+$("#addAnother").click(function () {
+    $.get('/Admin/MovieEntryRow', function (template) {
+        $("#variants").append(template);
+    });
+});

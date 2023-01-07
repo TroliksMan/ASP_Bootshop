@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "BootShopASP/1.0.0": {
         "dependencies": {
+          "BeginCollectionItemCore": "1.1.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.12",
           "MySql.EntityFrameworkCore": "6.0.7",
           "Newtonsoft.Json": "13.0.2",
@@ -15,6 +16,14 @@
         },
         "runtime": {
           "BootShopASP.dll": {}
+        }
+      },
+      "BeginCollectionItemCore/1.1.0": {
+        "runtime": {
+          "lib/net5.0/BeginCollectionItemCore.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
         }
       },
       "Google.Protobuf/3.19.4": {
@@ -384,6 +393,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BeginCollectionItemCore/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2x4ISi+n2prReYCsY+Rj++9IHLsm+kNp+/p+3UKTS+t8FGP74zyDJ4YBy/NXBIPVaQhdVDbz76Pfjx/nDaPJWA==",
+      "path": "begincollectionitemcore/1.1.0",
+      "hashPath": "begincollectionitemcore.1.1.0.nupkg.sha512"
     },
     "Google.Protobuf/3.19.4": {
       "type": "package",

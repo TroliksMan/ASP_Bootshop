@@ -762,15 +762,6 @@ main .newsletters .email-prompt .email-input input:focus[b-qb2dzerz95] {
     margin-bottom: -5px;
 }
 
-.images a:hover[b-qb2dzerz95] {
-    cursor: pointer;
-    background: #c7232f;
-}
-
-.images a:hover img[b-qb2dzerz95] {
-    filter: opacity(50%);
-}
-
 .images .pri[b-qb2dzerz95] {
     grid-area: primary;
 }
