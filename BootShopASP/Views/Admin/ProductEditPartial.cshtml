@@ -7,6 +7,8 @@
     var discount = Model is not null ? Model.discount.ToString("F").Replace(',', '.') : "0";
     var VAT = Model is not null ? Model.VAT.ToString() : "21";
     var stock = Model is not null ? Model.stock : 0;
+    var randomID = Model is not null ? Model.Color.id : 0;
+    var randomID2 = Model is not null ? Model.id : 0;
 }
 <script>
 console.log(@price)
@@ -16,42 +18,43 @@ console.log(@stock)
 </script>
 <div>
     @using (Html.BeginCollectionItem("ProductVariants")) {
-        @Html.HiddenFor(x => x.id)
+        <input hidden type="number" asp-for="id" value="@randomID2">
         @Html.HiddenFor(x => x.colorID)
-        @Html.HiddenFor(x => x.Color.id)
-
-        <label>
+        <input hidden type="number" asp-for="Color.id" value="@randomID">
+        
+        
+        <label class="form-label">
             Price:
-            <input asp-for="price">
+            <input asp-for="price" class="form-control">
             <span class="alert-danger" asp-validation-for="price"></span>
         </label>
-        <label>
+        <label class="form-label">
             Discount:
-            <input asp-for="discount">
+            <input asp-for="discount" class="form-control">
             <span class="alert-danger" asp-validation-for="discount"></span>
         </label>
-        <label>
+        <label class="form-label">
             VAT:
-            <input min="0" asp-for="VAT">
+            <input min="0" asp-for="VAT" class="form-control">
             <span asp-validation-for="VAT"></span>
         </label>
-        <label>
+        <label class="form-label">
             Stock:
-            <input min="0" asp-for="stock">
+            <input min="0" asp-for="stock" class="form-control">
             <span class="alert-danger" asp-validation-for="stock"></span>
         </label>
-        <label>
+        <label class="form-label">
             Size:
-            <input asp-for="size">
+            <input asp-for="size" class="form-control">
         </label>
-        <label>
+        <label class="form-label">
             Color name:
-            <input asp-for="Color.name">
+            <input asp-for="Color.name" class="form-control">
         </label>
-        <label>
+        <label class="form-label">
             Color:
-            <input type="color" asp-for="@Model.Color.hexCode">
+            <input type="color" asp-for="@Model.Color.hexCode" class="form-control">
         </label>
-        <a href="#" onclick="$(this).parent().remove();">Remove</a>
+        <a class="btn btn-danger" href="#" onclick="$(this).parent().remove();">Remove</a>
     }
 </div>

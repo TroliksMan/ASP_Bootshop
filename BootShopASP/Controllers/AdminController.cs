@@ -3,14 +3,22 @@ using BootShopASP.Attributes;
 using BootShopASP.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using IHostingEnvironment = Microsoft.Extensions.Hosting.IHostingEnvironment;
 
 namespace BootShopASP.Controllers;
 
 public class AdminController : Controller {
     private MyContext _myContext = new();
     const int PAGE_SIZE = 8;
+
+    private IHostEnvironment _iHostEnvironment;
+
+    public AdminController(IHostEnvironment _iHostEnvironment) {
+        this._iHostEnvironment = _iHostEnvironment;
+    }
 
     public IActionResult Index() => RedirectToAction("Dashboard");
 
@@ -46,10 +54,22 @@ public class AdminController : Controller {
     }
 
     [ProductEdit]
-    // TODO: Style product edit
+    public IActionResult ProductAdd() {
+        List<SelectListItem> typesPLZ = new();
+        foreach (var type in _myContext.tbTypes.ToList()) {
+            typesPLZ.Add(new SelectListItem(type.name, type.id.ToString(), false));
+        }
+
+        mProductEdit model = new mProductEdit().SetProduct(new mProduct()).SetVariants(new List<mProductVariant>())
+            .SetTypes(typesPLZ);
+        return View("ProductEdit", model);
+    }
+
+    [ProductEdit]
     public IActionResult ProductEdit(int id) {
         mProduct product = _myContext.tbProducts.Include(x => x.Images).Include(x => x.ProductVariants)
-            .Include(x => x.Category).FirstOrDefault(x => x.id == id);
+            .Include(x => x.Category).Include(x => x.ProductTypes).ThenInclude(x => x.Type)
+            .FirstOrDefault(x => x.id == id);
 
         if (product == null) {
             return RedirectToAction("Products");
@@ -58,14 +78,54 @@ public class AdminController : Controller {
 
         List<mProductVariant> variants =
             _myContext.tbProductVariants.Include(x => x.Color).Where(x => x.productID == id).ToList();
+        var types = _myContext.tbTypes.ToList();
+        var productTypes = _myContext.tbProductTypes.Where(x => x.productID == id).Select(x => x.typeID).ToList();
+        List<(bool, mType)> typesWTF = new();
+        foreach (var type in types) {
+            typesWTF.Add((productTypes.Contains(type.id), type));
+        }
 
+        List<SelectListItem> typesPLZ = new();
+        foreach (var type in types) {
+            typesPLZ.Add(new SelectListItem(type.name, type.id.ToString(), (productTypes.Contains(type.id))));
+        }
 
-        mProductEdit model = new mProductEdit().SetProduct(product).SetVariants(variants);
+        mProductEdit model = new mProductEdit().SetProduct(product).SetVariants(variants).SetTypes(typesPLZ);
         return View(model);
     }
 
     public IActionResult Orders(int pagingIndex = 0) {
         // TODO: Make easy order page
+        // for (int i = 0; i < 31; i++) {
+        //     var obj = new mOrder() {deliveryID = 1, paymentID = 1, surname = "Stanko", name = "Michal", shipCity = "Praha", shipStreet = "Malostranská", shipCountry = "Česká republika", shipZipCode = "14541", OrderDetails = new List<mOrderDetail>()};
+        //
+        //     _myContext.tbOrders.Add(obj);
+        //
+        //     for (int j = 0; j < 2; j++) {
+        //         var detail = new mOrderDetail() { productVariantID = 1, count = 2, discount = 0.4, orderID = i+1, price = 351, VAT = 21};
+        //         obj.OrderDetails.Add(detail);
+        //     }
+        //     
+        // }
+        //
+        // _myContext.SaveChanges();
+        //
+
+
+        int productCount = _myContext.tbProducts.Count();
+
+
+        if (pagingIndex < 0)
+            pagingIndex = 0;
+        else if (pagingIndex > productCount)
+            pagingIndex = 0;
+
+        var orders = _myContext.tbOrders.Include(x => x.Payment).Include(x => x.Delivery).Include(x => x.OrderDetails)
+            .ThenInclude(x => x.ProductVariant).ThenInclude(x => x.Product).ThenInclude(x => x.Images).Take(PAGE_SIZE);
+
+        this.ViewBag.Orders = orders;
+
+        SetPaging(pagingIndex, productCount);
         return View();
     }
 
@@ -74,38 +134,75 @@ public class AdminController : Controller {
         return View();
     }
 
-    // TODO: Change name to something more appropriate
-    public ActionResult MovieEntryRow() {
+    public ActionResult AddVariantRow() {
         return PartialView("ProductEditPartial");
     }
 
     [HttpPost]
     [ProductEdit]
-    public IActionResult PostProductEdit(mProductEdit prod) {
+    public IActionResult PostProductEdit(mProductEdit prod, IFormFile formFileFirst, IFormFile formFileSecond,
+        IFormFile formFileThird, IFormFile formFileFourth) {
         if (!this.ModelState.IsValid) {
             if (prod.ProductVariants is null)
                 prod.ProductVariants = new();
 
-
             return View("ProductEdit", prod);
         }
 
-
-        if (prod.ProductVariants is null || prod.ProductVariants.Count == 0) {
-            return Redirect(Request.Headers["Referer"].ToString());
-        }
-
         var product = _myContext.tbProducts.Include(x => x.Images).Include(x => x.ProductVariants)
+            .Include(x => x.ProductTypes)
             .FirstOrDefault(x => x.id == prod.Product.id);
-        if (product == null) {
-            return RedirectToAction("Products");
-        }
 
+        if (prod.Product.id == 0)
+            product = new mProduct();
         product.name = prod.Product.name;
         product.description = prod.Product.description;
         product.brand = prod.Product.brand;
         product.ProductVariants = prod.ProductVariants;
         product.categoryID = prod.Product.categoryID;
+        product.material = prod.Product.material;
+        if (product.id != 0)
+            product.ProductTypes.Clear();
+        else
+            product.ProductTypes = new();
+        foreach (var idkplz in prod.ProductTypes) {
+            if (idkplz.Selected) {
+                product.ProductTypes.Add(new mProductType()
+                    { productID = prod.Product.id, typeID = Int32.Parse(idkplz.Value) });
+            }
+        }
+
+        if (product.id == 0) {
+            product.Images = new List<mImage>()
+                { new mImage() { isPrimary = true }, new mImage(), new mImage(), new mImage() };
+        }
+
+        if (formFileFirst is not null) {
+            mImage img = new();
+            var filename = DateTime.Now.ToString("ddMMyyyhhmmss") + formFileFirst.FileName;
+            var path = Path.Combine(_iHostEnvironment.ContentRootPath, "wwwroot", "img", "Products", filename);
+            var stream = new FileStream(path, FileMode.Create);
+            formFileFirst.CopyToAsync(stream);
+            img.path = "img/Products/" + filename;
+            img.isPrimary = true;
+            var index = product.Images.FindIndex(x => x.isPrimary);
+            product.Images[index] = img;
+        }
+
+        if (formFileSecond is not null) {
+            SetImage(formFileSecond, product, 0);
+        }
+
+        if (formFileThird is not null) {
+            SetImage(formFileThird, product, 1);
+        }
+
+        if (formFileFourth is not null) {
+            SetImage(formFileFourth, product, 2);
+        }
+
+        if (product.id == 0)
+            _myContext.tbProducts.Add(product);
 
         _myContext.SaveChanges();
         return RedirectToAction("Products");
@@ -117,10 +214,14 @@ public class AdminController : Controller {
         return PartialView("RemoveProductPartial");
     }
 
-    // TODO: Finish product removal
     [HttpPost]
     public IActionResult RemoveProductPost(int id) {
-        ViewBag.ProductID = id;
+        var prod = _myContext.tbProducts.FirstOrDefault(x => x.id == id);
+        if (prod != null) {
+            this._myContext.tbProducts.Remove(prod);
+            this._myContext.SaveChanges();
+        }
+
         return RedirectToAction("Products");
     }
 
@@ -135,5 +236,18 @@ public class AdminController : Controller {
             this.ViewBag.pagingNext = -1;
         else
             this.ViewBag.pagingNext = pagingIndex + PAGE_SIZE;
+    }
+
+    private void SetImage(IFormFile formFile, mProduct product, int elementIndex) {
+        mImage img = new();
+        var filename = DateTime.Now.ToString("ddMMyyyhhmmss") + formFile.FileName;
+        var path = Path.Combine(_iHostEnvironment.ContentRootPath, "wwwroot", "img", "Products", filename);
+        var stream = new FileStream(path, FileMode.Create);
+        formFile.CopyToAsync(stream);
+        img.path = "img/Products/" + filename;
+        img.isPrimary = false;
+        var imgChange = product.Images.Where(x => !x.isPrimary).ElementAt(elementIndex);
+        var index = product.Images.IndexOf(imgChange);
+        product.Images[index] = img;
     }
 }

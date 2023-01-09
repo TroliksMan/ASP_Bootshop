@@ -13,7 +13,7 @@ public class ProductEditAttribute : Attribute, IActionFilter {
         
         ctrl.ViewBag.Categories = cats;
         ctrl.ViewBag.MainCats = cats.Where(x => x.parentID == null);
-        
+        ctrl.ViewBag.Types = _myContext.tbTypes.ToList();
     }
 
     public void OnActionExecuted(ActionExecutedContext context) { }

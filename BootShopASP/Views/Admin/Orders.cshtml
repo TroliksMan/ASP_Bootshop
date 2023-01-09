@@ -3,3 +3,48 @@
 }
 
 <h2>Orders</h2>
+
+
+@foreach (mOrder order in ViewBag.Orders) {
+    <div class="card mb-4 p-4 d-flex flex-row gap-5">
+        <div>
+            <h4>@order.name @order.surname</h4>
+            <p>@order.shipStreet, @order.shipCity @order.shipZipCode, @order.shipCountry</p>
+            <p>Delivery: @order.Delivery.name</p>
+            <p>Payment: @order.Payment.name</p>
+        </div>
+        <div class="flex-grow-1">
+            @foreach (mOrderDetail detail in order.OrderDetails) {
+                <p>
+                    <b>Produkt:</b> @detail.ProductVariant.Product.name
+                </p>
+                <p>
+                    <b>Značka:</b> @detail.ProductVariant.Product.brand
+                </p>
+                <hr/>
+            }
+        </div>
+        @* <img class="p-2 detail-picture" src="~/@product.Images.FirstOrDefault(x => x.isPrimary).path" alt="picture"> *@
+        @* <div class="p-2 product-detail flex-grow-1 d-flex flex-row"> *@
+        @*     <div class="flex-1"> *@
+        @*         <h2 class="">@product.name</h2> *@
+        @*         <h4>@product.brand</h4> *@
+        @*         <p> *@
+        @*             <b>Počet variant:</b> @product.ProductVariants.Count *@
+        @*         </p> *@
+        @*     </div> *@
+        @*     <div class="flex-3"> *@
+        @*         <p>@product.description</p> *@
+        @*     </div> *@
+        @* *@
+        @* </div> *@
+    </div>
+}
+
+
+@if (@ViewBag.pagingBack != -1) {
+    <a class="btn btn-dark" asp-controller="Admin" asp-action="Orders" asp-route-pagingIndex="@ViewBag.pagingBack">BACK</a>
+}
+@if (@ViewBag.pagingNext != -1) {
+    <a class="btn btn-dark" asp-controller="Admin" asp-action="Orders" asp-route-pagingIndex="@ViewBag.pagingNext">NEXT</a>
+}

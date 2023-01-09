@@ -1,6 +1,7 @@
 ﻿using BootShopASP.Attributes;
 using Microsoft.AspNetCore.Mvc;
 using BootShopASP.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BootShopASP.Controllers;
 

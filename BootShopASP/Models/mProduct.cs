@@ -19,6 +19,6 @@ public class mProduct {
 
     public mCategory Category { get; set; }
     public List<mImage> Images { get; set; }
-    public List<mType> Types { get; set; }
+    public List<mProductType> ProductTypes { get; set; }
     public List<mProductVariant> ProductVariants { get; set; }
 }

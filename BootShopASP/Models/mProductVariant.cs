@@ -1,14 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Configuration;
+using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace BootShopASP.Models;
 
 public class mProductVariant {
     [Key] public int id { get; set; }
     public int productID { get; set; }
-    public int colorID { get; set; }
+    public int? colorID { get; set; }
 
     [RegularExpression("^[0-9]+$", ErrorMessage = "Please enter valid size")]
     [Required(ErrorMessage = "Please enter a size")]
