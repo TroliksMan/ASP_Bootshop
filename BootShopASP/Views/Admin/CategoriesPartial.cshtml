@@ -1,0 +1,20 @@
+﻿@using HtmlHelpers.BeginCollectionItemCore
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model mCategory
+@{
+    var parentID = Model is not null ? Model.parentID : ViewBag.id;
+}
+<div>
+    @using (Html.BeginCollectionItem("Categories")) {
+        <label>
+            @Html.HiddenFor(x => x.id)
+            @Html.HiddenFor(x => x.leftIndex)
+            @Html.HiddenFor(x => x.rightIndex)
+            <input hidden asp-for="parentID" value="@parentID">
+            &emsp; &emsp;> <input class="removeBorder" type="text" asp-for="name">
+        </label>
+        <a class="btn btn-close" onclick="$(this).parent().remove();"></a>
+        <br/>
+    }
+</div>

@@ -1,0 +1,20 @@
+﻿@using HtmlHelpers.BeginCollectionItemCore
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model mCategory
+
+    @using (Html.BeginCollectionItem("ParentCategories")) {
+        <label class="mb-4">
+            @Html.HiddenFor(x => x.id)
+            @Html.HiddenFor(x => x.leftIndex)
+            @Html.HiddenFor(x => x.rightIndex)
+            <input class="removeBorder" type="text" asp-for="name">
+        </label>
+        <a class="btn btn-close" onclick="$(this).parent().remove();"></a>
+        <br/>
+        <div id="@("sub" + ViewBag.id)" class="d-flex flex-column gap-2">
+            @for (int j = 0; j < Model.Categories?.Count; j++) {
+                Html.RenderPartial("CategoriesPartial", Model.Categories[j]);
+            }
+        </div>
+        <button type="button" onclick="AddCat(@ViewBag.id)" class="btn btn-secondary w-25 mt-2 mb-4">Add</button>
+    }

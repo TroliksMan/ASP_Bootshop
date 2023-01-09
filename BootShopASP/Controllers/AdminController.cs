@@ -1,15 +1,14 @@
-﻿using System.Reflection;
-using BootShopASP.Attributes;
+﻿using BootShopASP.Attributes;
 using BootShopASP.Models;
-using Microsoft.AspNetCore.Components;
+using JWT.Algorithms;
+using JWT.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
-using IHostingEnvironment = Microsoft.Extensions.Hosting.IHostingEnvironment;
 
 namespace BootShopASP.Controllers;
 
+[Secured]
 public class AdminController : Controller {
     private MyContext _myContext = new();
     const int PAGE_SIZE = 8;
@@ -23,9 +22,10 @@ public class AdminController : Controller {
     public IActionResult Index() => RedirectToAction("Dashboard");
 
 
-    public IActionResult Login() {
-        // TODO: Authorization
-        return View();
+    public IActionResult LogOut() {
+        
+        this.HttpContext.Session.Remove("login");
+        return RedirectToAction("Index", "Login");
     }
 
     public IActionResult Dashboard() {
@@ -95,25 +95,7 @@ public class AdminController : Controller {
     }
 
     public IActionResult Orders(int pagingIndex = 0) {
-        // TODO: Make easy order page
-        // for (int i = 0; i < 31; i++) {
-        //     var obj = new mOrder() {deliveryID = 1, paymentID = 1, surname = "Stanko", name = "Michal", shipCity = "Praha", shipStreet = "Malostranská", shipCountry = "Česká republika", shipZipCode = "14541", OrderDetails = new List<mOrderDetail>()};
-        //
-        //     _myContext.tbOrders.Add(obj);
-        //
-        //     for (int j = 0; j < 2; j++) {
-        //         var detail = new mOrderDetail() { productVariantID = 1, count = 2, discount = 0.4, orderID = i+1, price = 351, VAT = 21};
-        //         obj.OrderDetails.Add(detail);
-        //     }
-        //     
-        // }
-        //
-        // _myContext.SaveChanges();
-        //
-
-
         int productCount = _myContext.tbProducts.Count();
-
 
         if (pagingIndex < 0)
             pagingIndex = 0;
@@ -129,13 +111,52 @@ public class AdminController : Controller {
         return View();
     }
 
-    public IActionResult Categories(int pagingIndex = 0) {
+    public IActionResult Categories() {
         // TODO: Hopefuly simple category editor
-        return View();
+
+        mCategoryEdit categoryEdit = new mCategoryEdit();
+        categoryEdit.SetParentCategories(_myContext.tbCategories.Include(x => x.Categories).Include(x => x.Category)
+            .Where(x => x.Category == null).ToList());
+
+
+        return View(categoryEdit);
     }
 
-    public ActionResult AddVariantRow() {
-        return PartialView("ProductEditPartial");
+    [HttpPost]
+    public IActionResult Categories(mCategoryEdit cats) {
+        foreach (var parent in cats.ParentCategories) {
+            if (parent.Categories is null)
+                parent.Categories = new();
+        }
+
+        foreach (var cat in cats.Categories) {
+            cats.ParentCategories[(cat.parentID - 1) ?? 0].Categories.Add(cat);
+        }
+
+
+        foreach (var VARIABLE in cats.ParentCategories) {
+            if (VARIABLE.name is null)
+                return View("Categories", cats);
+        }
+
+        if (!this.ModelState.IsValid) {
+            return View("Categories", cats);
+        }
+
+
+        return RedirectToAction("Categories");
+    }
+
+    public ActionResult AddVariantRow() => PartialView("ProductEditPartial");
+
+    public IActionResult AddCategoryRow(int id) {
+        ViewBag.id = id;
+        return PartialView("CategoriesPartial");
+    }
+
+    public IActionResult AddParentCatRow(int id) {
+        this.ViewBag.id = id;
+        return PartialView("CategoriesParentPartial", new mCategory());
     }
 
     [HttpPost]

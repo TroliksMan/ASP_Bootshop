@@ -28,3 +28,5 @@ $("#addAnother").click(function () {
         $("#variants").append(template);
     });
 });
+
+let counter = 0;

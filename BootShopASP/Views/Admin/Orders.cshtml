@@ -8,36 +8,41 @@
 @foreach (mOrder order in ViewBag.Orders) {
     <div class="card mb-4 p-4 d-flex flex-row gap-5">
         <div>
-            <h4>@order.name @order.surname</h4>
-            <p>@order.shipStreet, @order.shipCity @order.shipZipCode, @order.shipCountry</p>
-            <p>Delivery: @order.Delivery.name</p>
-            <p>Payment: @order.Payment.name</p>
+            <h4>
+                @order.name @order.surname
+            </h4>
+            <p><b>Address:</b> @order.shipStreet, @order.shipCity @order.shipZipCode, @order.shipCountry</p>
+            <p>
+                <b>Delivery:</b> @order.Delivery.name @order.Delivery.price Kč
+            </p>
+            <p>
+                <b>Payment:</b> @order.Payment.name @order.Payment.price Kč
+            </p>
         </div>
         <div class="flex-grow-1">
             @foreach (mOrderDetail detail in order.OrderDetails) {
-                <p>
-                    <b>Produkt:</b> @detail.ProductVariant.Product.name
-                </p>
-                <p>
-                    <b>Značka:</b> @detail.ProductVariant.Product.brand
-                </p>
+                <div class="d-flex gap-3">
+                    <p>
+                        <b>Product name:</b> @detail.ProductVariant.Product.name
+                    </p>
+                    <p>
+                        <b>Brand:</b> @detail.ProductVariant.Product.brand
+                    </p>
+                    <p>
+                        <b>Price:</b> @(detail.price * (1 - detail.discount)) Kč
+                    </p>
+                    <p>
+                        <b>VAT:</b> @detail.VAT
+                    </p>
+                    <p>
+                        <b>Ordered count:</b> @detail.count
+                    </p>
+                </div>
                 <hr/>
             }
+
         </div>
-        @* <img class="p-2 detail-picture" src="~/@product.Images.FirstOrDefault(x => x.isPrimary).path" alt="picture"> *@
-        @* <div class="p-2 product-detail flex-grow-1 d-flex flex-row"> *@
-        @*     <div class="flex-1"> *@
-        @*         <h2 class="">@product.name</h2> *@
-        @*         <h4>@product.brand</h4> *@
-        @*         <p> *@
-        @*             <b>Počet variant:</b> @product.ProductVariants.Count *@
-        @*         </p> *@
-        @*     </div> *@
-        @*     <div class="flex-3"> *@
-        @*         <p>@product.description</p> *@
-        @*     </div> *@
-        @* *@
-        @* </div> *@
+<h3>Summary: @(order.Delivery.price + order.Payment.price + order.OrderDetails.Select(x => x.price * (1 - x.discount)).Sum()) Kč</h3>
     </div>
 }
 

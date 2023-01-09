@@ -98,3 +98,22 @@ a:hover {
 .current-link {
     text-decoration: underline !important;
 }
+
+
+.makeItGrid {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+}
+
+.removeBorder {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.removeBorder:focus {
+    outline: none!important;
+}
+
+.form-signin {
+    margin-top: 15rem;
+}
