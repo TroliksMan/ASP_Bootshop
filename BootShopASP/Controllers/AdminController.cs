@@ -62,6 +62,11 @@ public class AdminController : Controller {
 
         mProductEdit model = new mProductEdit().SetProduct(new mProduct()).SetVariants(new List<mProductVariant>())
             .SetTypes(typesPLZ);
+        model.Product.Images = new();
+        model.Product.Images.Add(new() { isPrimary = true });
+        model.Product.Images.Add(new());
+        model.Product.Images.Add(new());
+        model.Product.Images.Add(new());
         return View("ProductEdit", model);
     }
 
@@ -196,6 +201,9 @@ public class AdminController : Controller {
         if (product.id == 0) {
             product.Images = new List<mImage>()
                 { new mImage() { isPrimary = true }, new mImage(), new mImage(), new mImage() };
+            if (formFileFirst is null || formFileSecond is null || formFileThird is null || formFileFourth is null) {
+                return View("ProductEdit", prod);
+            }
         }
 
         if (formFileFirst is not null) {
