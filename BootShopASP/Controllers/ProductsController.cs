@@ -8,11 +8,11 @@ namespace BootShopASP.Controllers;
 [Shared]
 public class ProductsController : Controller {
     private MyContext _myContext = new();
+    const int PAGE_SIZE = 16;
 
-    public IActionResult Index(int from = 0, List<int> types = null, int category = -1,
+    public IActionResult Index(int pagingIndex = 0, List<int> types = null, int category = -1,
         List<string> colors = null, List<int> sizes = null, string search = null, Order order = Order.nameASC) {
         // -----
-
         mCategory cat = _myContext.tbCategories.Include(x => x.Category).FirstOrDefault(x => x.id == category);
         this.ViewBag.Category = cat;
         if (cat is not null)
@@ -26,11 +26,15 @@ public class ProductsController : Controller {
             products = _myContext.tbProducts.Include(x => x.Category).Include(x => x.ProductVariants)
                 .ThenInclude(x => x.Color).Include(x => x.ProductTypes).ThenInclude(x => x.Type)
                 .Where(x => x.Category.leftIndex >= cat.leftIndex && x.Category.rightIndex <= cat.rightIndex).ToList()
-                .OrderBy(x => x.createDate).Take(24);
-
+                .OrderBy(x => x.createDate);
 
         products = FilterProducts(products, search, sizes, colors, types);
+        int productCount = products.Count();
 
+        if (pagingIndex < 0)
+            pagingIndex = 0;
+        else if (pagingIndex > productCount)
+            pagingIndex = 0;
 
         this.ViewBag.Order = order;
         List<(mProduct, mProductVariant, string)> pr = new();
@@ -56,6 +60,19 @@ public class ProductsController : Controller {
                 pr = pr.OrderByDescending(x => x.Item2.price).ToList();
                 break;
         }
+
+        pr = pr.Skip(pagingIndex).Take(PAGE_SIZE).ToList();
+        this.ViewBag.pagingCurrent = pagingIndex;
+        this.ViewBag.productCount = productCount;
+        if (pagingIndex - PAGE_SIZE < 0)
+            this.ViewBag.pagingBack = -1;
+        else
+            this.ViewBag.pagingBack = pagingIndex - PAGE_SIZE;
+
+        if (pagingIndex + PAGE_SIZE > productCount)
+            this.ViewBag.pagingNext = -1;
+        else
+            this.ViewBag.pagingNext = pagingIndex + PAGE_SIZE;
         this.ViewBag.Products = pr;
         return View();
     }
@@ -134,7 +151,7 @@ public class ProductsController : Controller {
         if (search is not null)
             products = products.Where(x => x.name.ToLower().Contains(search.ToLower()));
         this.ViewBag.Search = search;
-        
+
         if (sizes.Count != 0)
             products = products.Where(x => x.ProductVariants.Any(y => sizes.Contains(y.size)));
         this.ViewBag.SelectedSizes = sizes;
@@ -146,7 +163,7 @@ public class ProductsController : Controller {
         if (types.Count != 0)
             products = products.Where(x => x.ProductTypes.Any(y => types.Any(z => z == y.typeID)));
         this.ViewBag.SelectedTypes = types;
-        
+
         return products;
     }
 

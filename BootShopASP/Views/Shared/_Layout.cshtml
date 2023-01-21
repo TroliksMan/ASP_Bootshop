@@ -36,11 +36,11 @@
             </a>
         </div>
         <div class="search">
-            <form action="search.php" class="search-input not-mobile">
+            <form asp-controller="Products" asp-action="Index" method="get" class="search-input not-mobile">
                 <label for="search">
                     <img alt="mag-glass" src="~/img/mag-glass.png">
                 </label>
-                <input class="font" id="search" name="searched" placeholder="Vyhledat zboží..." required type="text">
+                <input class="font" id="search" name="search" placeholder="Vyhledat zboží..." required type="text">
             </form>
             <div class="not-desktop">
                 <a href="">

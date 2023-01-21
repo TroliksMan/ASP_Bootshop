@@ -6,7 +6,16 @@
 }
 <script>
     function Update() {
+        console.log("update");
         document.forms["sidebarForm"].submit();
+    }
+    function Paging(type) {
+        if (type == 0) {
+            document.getElementById("paging").value = @ViewBag.pagingBack 
+        } else {
+            document.getElementById("paging").value = @ViewBag.pagingNext
+        }
+        Update();
     }
 </script>
 <div class="categories font">
@@ -73,6 +82,7 @@
             @if (ViewBag.Category is not null) {
                 <input hidden type="text" name="category" value="@ViewBag.Category.id">
             }
+            <input hidden type="text" name="pagingIndex" value="0" id="paging">
             <label class="product-search">
                 <h4>Hledat</h4>
                 <input onchange="Update()" name="search" type="text" value="@ViewBag.Search" placeholder="Polobotky...">
@@ -109,5 +119,17 @@
             </div>
         </aside>
     </div>
-    @*TODO: Make pagination *@
+    <div class="buttons padding-10 font">
+        @if (@ViewBag.pagingBack != -1) {
+            <button type="button" onclick="Paging(0)">
+                <span>&lt;= Zpět</span>
+            </button>
+        }
+        @if (@ViewBag.pagingNext != -1) {
+            <button type="button" onclick="Paging(1)">
+                <span>Další =&#62;</span>
+            </button>
+        }
+        <p>Produktů celkem: @ViewBag.productCount</p>
+    </div>
 </form>

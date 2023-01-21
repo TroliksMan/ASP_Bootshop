@@ -1155,9 +1155,12 @@ thead[b-qb2dzerz95] {
 /* _content/BootShopASP/Views/Products/Index.cshtml.rz.scp.css */
 .products[b-6k8bigqswk] {
     display: flex;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
-
+aside[b-6k8bigqswk] {
+    position: sticky;
+    top: 1rem;
+}
 .products .offers[b-6k8bigqswk] {
     flex: 4;
 }
@@ -1219,6 +1222,28 @@ thead[b-qb2dzerz95] {
 .top .order[b-6k8bigqswk] {
     display: flex;
     gap: 1rem;
+}
+.buttons[b-6k8bigqswk] {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    height: 2rem;
+}
+.buttons button[b-6k8bigqswk] {
+    width: 5rem;
+    background-color: #304068;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.buttons button:hover[b-6k8bigqswk] {
+    cursor: pointer;
+    background-color: #222f4b;
+}
+.buttons p[b-6k8bigqswk] {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 /* _content/BootShopASP/Views/Shared/Components/ProductCard/Default.cshtml.rz.scp.css */
 .heading-offers[b-rw81xjywxe] {

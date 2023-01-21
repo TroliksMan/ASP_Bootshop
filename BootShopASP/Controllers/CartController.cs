@@ -4,7 +4,7 @@ namespace BootShopASP.Controllers;
 
 public class CartController : Controller {
     public IActionResult Cart() {
-        // TODO: Make whole car :C
+        // TODO: Make whole cart
         return View();
     }
 }
