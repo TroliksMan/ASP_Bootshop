@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yDNZu5FzumHrvAxYyUmGapXBm1lUYSDVt/V18239gbY=",
+  "Hash": "tGIN2svuEjl6ws23qp1Tn+Ce27Q2VTDajlq2snA6vCQ=",
   "Source": "BootShopASP",
   "BasePath": "_content/BootShopASP",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BootShopASP\\wwwroot",
       "Source": "BootShopASP",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BootShopASP.styles.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BootShopASP.styles.css",
       "SourceId": "BootShopASP",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "BootShopASP.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BootShopASP.styles.css"
+      "OriginalItemSpec": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BootShopASP.styles.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BootShopASP.bundle.scp.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BootShopASP.bundle.scp.css",
       "SourceId": "BootShopASP",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "BootShopASP.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BootShopASP.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BootShopASP.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\css\\Admin.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\Admin.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "css/Admin.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\css\\Detail.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\Detail.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "css/Detail.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Detail.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\css\\site.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\favicon.ico",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\baby.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\baby.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/baby.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\baby.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\big_boy.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\big_boy.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/big_boy.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\big_boy.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\big_girl.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\big_girl.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/big_girl.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\big_girl.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\big_how.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\big_how.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/big_how.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\big_how.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/blue.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\boots.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\boots.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/boots.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\boots.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\bota1.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota1.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/bota1.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bota1.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/bota2.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/bota3.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/bota4.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/bota5.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\boy.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\boy.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/boy.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\boy.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\brown_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\brown_two.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/brown_two.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\brown_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\bundgaard.webp",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\bundgaard.webp",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/bundgaard.webp",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bundgaard.webp"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\facebook.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\facebook.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/facebook.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\facebook.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\feet.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\feet.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/feet.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\feet.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\girl.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\girl.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/girl.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\girl.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\gray_one.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\gray_one.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/gray_one.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gray_one.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\gray_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\gray_two.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/gray_two.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gray_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\heart.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\heart.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/heart.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\heart.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\instagram.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\instagram.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/instagram.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\logo.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\logo.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\mag-glass.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\mag-glass.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/mag-glass.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mag-glass.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\mail.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\mail.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/mail.png",
       "AssetKind": "All",
@@ -527,27 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mail.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\pink.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\pink_high.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "img/pink.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pink.png"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\pink_high.png",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/pink_high.png",
       "AssetKind": "All",
@@ -561,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pink_high.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\pink_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\pink_two.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/pink_two.png",
       "AssetKind": "All",
@@ -578,10 +561,27 @@
       "OriginalItemSpec": "wwwroot\\img\\pink_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\pinkg_high_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\pink.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/pink.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pink.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\pinkg_high_two.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/pinkg_high_two.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pinkg_high_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023010238blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023010238blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023010238blue.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023010238blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023010238bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023010238bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023010238bota3.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023010238bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023010238gray_one.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023010238gray_one.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023010238gray_one.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023010238gray_one.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023014925bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023014925bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023014925bota5.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023014925bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015146bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015146bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015146bota4.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015146bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015150pink_high.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015150pink_high.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015150pink_high.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015150pink_high.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015152bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015152bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015152bota4.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015152bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015154bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015154bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015154bota2.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015154bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015300bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015300bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015300bota4.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015300bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015300pink_high.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015300pink_high.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015300pink_high.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015300pink_high.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015425bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015425bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015425bota2.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015425bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015425bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015425bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015425bota3.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015425bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015425bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015425bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015425bota4.png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015425bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015425bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015425bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015425bota5.png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015425bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015532bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015532bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015532bota4.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015532bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015540bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015540bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015540bota2.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015540bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015601bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015601bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015601bota3.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015601bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015724bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015724bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015724bota5.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015724bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015743bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015743bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015743bota2.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015743bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015743bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015743bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015743bota3.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015743bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015743bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015743bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015743bota4.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015743bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015743bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015743bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015743bota5.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015743bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015844blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015844blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015844blue.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015844blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015906blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015906blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015906blue.png",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015906blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015923blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023015923blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023015923blue.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023015923blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020124blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020124blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020124blue.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020124blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020300blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020300blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020300blue.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020300blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020419blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020419blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020419blue.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020419blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020542bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020542bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020542bota2.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020542bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020542bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020542bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020542bota3.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020542bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020542bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020542bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020542bota4.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020542bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020542bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020542bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020542bota5.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020542bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020617bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020617bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020617bota2.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020617bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020617bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020617bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020617bota3.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020617bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020617bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020617bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020617bota4.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020617bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020620bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020620bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020620bota5.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020620bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020654bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020654bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020654bota2.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020654bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020709bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020709bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020709bota3.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020709bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020823bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020823bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020823bota2.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020823bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020823bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020823bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020823bota3.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020823bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020823bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020823bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020823bota4.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020823bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020823bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023020823bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023020823bota5.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023020823bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021217bota1.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021217bota1.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023021217bota1.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023021217bota1.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021217gray_one.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021217gray_one.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023021217gray_one.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023021217gray_one.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021246gray_one.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021246gray_one.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023021246gray_one.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023021246gray_one.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021247bota1.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021247bota1.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023021247bota1.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023021247bota1.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021247brown_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021247brown_two.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023021247brown_two.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023021247brown_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021247gray_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023021247gray_two.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023021247gray_two.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023021247gray_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123710bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123710bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023123710bota4.png",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023123710bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123730bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123730bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023123730bota2.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023123730bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123730bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123730bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023123730bota3.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023123730bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123730bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123730bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023123730bota4.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023123730bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123730bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023123730bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023123730bota5.png",
       "AssetKind": "All",
@@ -1496,10 +1496,163 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023123730bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023125717pink.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124523bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124523bota2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124523bota2.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124523bota3.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124523bota3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124523bota3.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124523bota4.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124523bota4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124523bota4.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124523bota5.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124523bota5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124523bota5.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124638bota2.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124638bota2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124638bota2.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124638bota3.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124638bota3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124638bota3.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124638bota4.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124638bota4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124638bota4.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124638bota5.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124638bota5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124638bota5.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023124653gray_two.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/09012023124653gray_two.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\09012023124653gray_two.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\09012023125717pink.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/09012023125717pink.png",
       "AssetKind": "All",
@@ -1513,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\09012023125717pink.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\blue.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\blue.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/blue.png",
       "AssetKind": "All",
@@ -1530,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\blue.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\bota1.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota1.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/bota1.png",
       "AssetKind": "All",
@@ -1547,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\bota1.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\bota2.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota2.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/bota2.png",
       "AssetKind": "All",
@@ -1564,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\bota2.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\bota3.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota3.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/bota3.png",
       "AssetKind": "All",
@@ -1581,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\bota3.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\bota4.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota4.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/bota4.png",
       "AssetKind": "All",
@@ -1598,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\bota4.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\bota5.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\bota5.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/bota5.png",
       "AssetKind": "All",
@@ -1615,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\bota5.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\brown_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\brown_two.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/brown_two.png",
       "AssetKind": "All",
@@ -1632,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\brown_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\gray_one.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\gray_one.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/gray_one.png",
       "AssetKind": "All",
@@ -1649,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\gray_one.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\gray_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\gray_two.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/gray_two.png",
       "AssetKind": "All",
@@ -1666,27 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\gray_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\pink.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\pink_high.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "img/Products/pink.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\pink.png"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\pink_high.png",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/pink_high.png",
       "AssetKind": "All",
@@ -1700,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\pink_high.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\pink_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\pink_two.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/pink_two.png",
       "AssetKind": "All",
@@ -1717,10 +1853,27 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\pink_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\Products\\pinkg_high_two.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\pink.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "img/Products/pink.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\pink.png"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\Products\\pinkg_high_two.png",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/Products/pinkg_high_two.png",
       "AssetKind": "All",
@@ -1734,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\pinkg_high_two.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\profile-user.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\profile-user.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/profile-user.png",
       "AssetKind": "All",
@@ -1751,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\img\\profile-user.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\shop.svg",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\shop.svg",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/shop.svg",
       "AssetKind": "All",
@@ -1768,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shop.svg"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\skladem.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\skladem.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/skladem.png",
       "AssetKind": "All",
@@ -1785,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\img\\skladem.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\slider-pic.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\slider-pic.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/slider-pic.png",
       "AssetKind": "All",
@@ -1802,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider-pic.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\tel.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\tel.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/tel.png",
       "AssetKind": "All",
@@ -1819,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tel.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\twitter.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\twitter.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/twitter.png",
       "AssetKind": "All",
@@ -1836,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\img\\twitter.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\velikost.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\velikost.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/velikost.png",
       "AssetKind": "All",
@@ -1853,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\img\\velikost.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\img\\zdarma.png",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\img\\zdarma.png",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "img/zdarma.png",
       "AssetKind": "All",
@@ -1870,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\img\\zdarma.png"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\js\\site.js",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1887,146 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2040,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2057,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2074,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2091,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2108,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2210,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2227,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2244,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2261,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2278,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2295,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2431,10 +2448,146 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2448,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2465,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2482,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2499,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2516,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2533,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2550,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2567,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2584,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2601,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2618,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2635,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2652,163 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery/dist/jquery.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
-      "BasePath": "_content/BootShopASP",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "BootShopASP",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BootShopASP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\wwwroot\\",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
       "BasePath": "_content/BootShopASP",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2854,6 +2854,159 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery/dist/jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "BootShopASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\wwwroot\\",
+      "BasePath": "_content/BootShopASP",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }

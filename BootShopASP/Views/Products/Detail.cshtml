@@ -14,7 +14,7 @@
 </script>
 
 <div class="breadcrumb padding-10 font">
-    <a asp-controller="Home" asp-action="Index">Domů</a> > <a href="index.html">@ViewBag.Category.Category.name</a> > <a href="index.html">@ViewBag.Category.name</a>
+    <a asp-action="Index">Domů</a> > <a asp-controller="Products" asp-action="Index" asp-route-category="@ViewBag.Category.Category.id">@ViewBag.Category.Category.name</a> > <a asp-controller="Products" asp-action="Index" asp-route-category="@ViewBag.Category.id">@ViewBag.Category.name</a>
 </div>
 <div class="product padding-10 font">
     <div class="img-description-flex">
@@ -56,7 +56,6 @@
                                         <input value="@item.id" asp-area-variantID="@item.id" onchange="Update()" type="radio" name="colorID">
                                     }
                                     <span class="check" style="background-color: @item.hexCode"></span>
-
                                 </label>
                             }
                         </div>

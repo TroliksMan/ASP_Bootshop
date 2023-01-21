@@ -8,9 +8,6 @@ public class LoginController : Controller {
 
     [HttpGet]
     public IActionResult Index() {
-        // TODO: Authorization
-
-
         return View(new mLogin());
     }
 

@@ -13,11 +13,12 @@ public class SharedAttribute : Attribute, IActionFilter {
 
         mCategory catChlapecke = this._myContext.tbCategories.First(x => x.name == "Chlapecké");
         mCategory catDivci = this._myContext.tbCategories.First(x => x.name == "Dívčí");
+
+
         ctrl.ViewBag.CategoriesBoy = this._myContext.tbCategories.Where(x =>
-            x.leftIndex > catChlapecke.leftIndex && x.rightIndex < catChlapecke.rightIndex).Select(x => x.name);
+            x.leftIndex > catChlapecke.leftIndex && x.rightIndex < catChlapecke.rightIndex);
         ctrl.ViewBag.CategoriesGirl = this._myContext.tbCategories.Where(x =>
-            x.leftIndex > catDivci.leftIndex && x.rightIndex < catDivci.rightIndex).Select(x => x.name);
-        
+            x.leftIndex > catDivci.leftIndex && x.rightIndex < catDivci.rightIndex);
     }
 
     public void OnActionExecuted(ActionExecutedContext context) { }

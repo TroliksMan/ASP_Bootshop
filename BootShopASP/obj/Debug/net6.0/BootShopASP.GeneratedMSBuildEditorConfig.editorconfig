@@ -5,100 +5,101 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BootShopASP
 build_property.RootNamespace = BootShopASP
-build_property.ProjectDir = C:\Users\stankomichal\Desktop\Github\BootshopASP\BootShopASP\
+build_property.ProjectDir = D:\Data\Coding\C#\BootShopASP\BootShopASP\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\stankomichal\Desktop\Github\BootshopASP\BootShopASP
+build_property.MSBuildProjectDirectory = D:\Data\Coding\C#\BootShopASP\BootShopASP
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/Categories.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/CategoriesParentPartial.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/CategoriesParentPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmllc1BhcmVudFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/CategoriesPartial.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/CategoriesPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmllc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/Dashboard.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/Orders.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/ProductEdit.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/ProductEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/ProductEditPartial.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/ProductEditPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEVkaXRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/Products.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/RemoveProductPartial.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/RemoveProductPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVtb3ZlUHJvZHVjdFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Admin/_ViewStart.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Admin/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Cart/Cart.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Cart/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Login/Index.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Shared/Error.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/_ViewImports.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/_ViewStart.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Home/Index.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-hybj1jw5b8
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Products/Detail.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Products/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-qb2dzerz95
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Products/Index.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6k8bigqswk
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Shared/Components/ProductCard/Default.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Shared/Components/ProductCard/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdENhcmRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-rw81xjywxe
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Shared/_AdminLayout.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-k6gndle75d
 
-[C:/Users/stankomichal/Desktop/Github/BootshopASP/BootShopASP/Views/Shared/_Layout.cshtml]
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0alx0fc04d

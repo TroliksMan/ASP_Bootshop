@@ -62,16 +62,16 @@
     <nav class="padding-10">
         <ul>
             <li>
-                <a href="">Chlapecké<img alt="" src="~/img/boy.png"></a>
+                <a asp-action="Index" asp-controller="Products" asp-route-category="1">Chlapecké<img alt="" src="~/img/boy.png"></a>
             </li>
             <li>
-                <a href="">Dívčí<img alt="" src="~/img/girl.png"></a>
+                <a asp-action="Index" asp-controller="Products" asp-route-category="10">Dívčí<img alt="" src="~/img/girl.png"></a>
             </li>
             <li>
-                <a href="">Doplňky</a>
+                <a asp-action="Index" asp-controller="Products" asp-route-category="20">Doplňky</a>
             </li>
             <li>
-                <a href="">Ostatní</a>
+                <a asp-action="Index" asp-controller="Products" asp-route-category="22">Ostatní</a>
             </li>
             <li class="not-mobile">
                 <a href="">Kontakt</a>
@@ -110,9 +110,9 @@
             <div class="divci">
                 <h3>Dívčí</h3>
                 <ul>
-                    @foreach (var cat in ViewBag.CategoriesGirl) {
+                    @foreach (mCategory cat in ViewBag.CategoriesGirl) {
                         <li>
-                            <a href="">@cat</a>
+                            <a asp-action="Index" asp-controller="Products" asp-route-category="@cat.id">@cat.name</a>
                         </li>
                     }
                 </ul>
@@ -120,9 +120,9 @@
             <div class="chlapecke">
                 <h3>Chlapecké</h3>
                 <ul>
-                    @foreach (var cat in ViewBag.CategoriesBoy) {
+                    @foreach (mCategory cat in ViewBag.CategoriesBoy) {
                         <li>
-                            <a href="">@cat</a>
+                            <a asp-action="Index" asp-controller="Products" asp-route-category="@cat.id">@cat.name</a>
                         </li>
                     }
                 </ul>

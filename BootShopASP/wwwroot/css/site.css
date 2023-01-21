@@ -2,13 +2,43 @@ body, html {
     padding: 0;
     margin: 0;
 }
-.modal-open {
-    padding-right: 0!important;
+
+.cat-link {
+    text-decoration: none;
+    color: #c7232f;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-style: italic;
 }
+
+.no-filter {
+    padding-top: 1rem;
+}
+
+.no-filter a {
+    color: white;
+}
+
+.no-filter span {
+    font-size: 20px
+}
+
+.cat-link:hover {
+    text-decoration: underline;
+    color: #304068;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
 #RemoveProduct {
     background-color: rgba(0, 0, 0, 0.67);
     padding-top: 10rem;
 }
+
 .font {
     font-family: "Libre Franklin", sans-serif;
 }
@@ -733,7 +763,7 @@ hr {
     margin-right: 0.3rem;
 }
 
-.radios-size .radio-btn input {
+.radio-btn input {
     display: none;
 }
 
@@ -749,6 +779,18 @@ hr {
 
 .radios-size .radio-btn .check:hover {
     cursor: pointer;
+}
+
+.order .radio-btn input:checked + .check {
+    text-decoration: underline;
+    color: #981b24;
+}
+
+.order .radio-btn .check:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #981b24;
+
 }
 
 .price-cart {
