@@ -14,6 +14,11 @@ public class SharedAttribute : Attribute, IActionFilter {
         mCategory catChlapecke = this._myContext.tbCategories.First(x => x.name == "Chlapecké");
         mCategory catDivci = this._myContext.tbCategories.First(x => x.name == "Dívčí");
 
+        mCart sessionCart = ctrl.HttpContext.Session.GetJson<mCart>("cart");
+        if (sessionCart is not null)
+            ctrl.ViewBag.ProductCountHeader = sessionCart.Items.Count;
+        else
+            ctrl.ViewBag.ProductCountHeader = 0;
 
         ctrl.ViewBag.CategoriesBoy = this._myContext.tbCategories.Where(x =>
             x.leftIndex > catChlapecke.leftIndex && x.rightIndex < catChlapecke.rightIndex);

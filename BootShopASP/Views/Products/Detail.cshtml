@@ -97,10 +97,10 @@
                 <div class="cart">
                     @if (ViewBag.Variant.stock > 0) {
                         <button class="not-desktop">
-                            <a href="demand.html"><img src="~/img/shop.svg" alt="cart">Do košíku</a>
+                            <a asp-controller="Cart" asp-action="AddItem" asp-route-variantID="@ViewBag.Variant.id"><img src="~/img/shop.svg" alt="cart">Do košíku</a>
                         </button>
                         <button class="not-mobile">
-                            <a href="demand.html"><img src="~/img/shop.svg" alt="cart">Přidat do košíku</a>
+                            <a asp-controller="Cart" asp-action="AddItem" asp-route-variantID="@ViewBag.Variant.id"><img src="~/img/shop.svg" alt="cart">Přidat do košíku</a>
                         </button>
                     }
                     else {

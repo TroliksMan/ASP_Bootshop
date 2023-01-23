@@ -135,3 +135,7 @@ C:\Users\stankomichal\Desktop\Github\BootshopASP\BootShopASP\obj\Debug\net6.0\re
 C:\Users\stankomichal\Desktop\Github\BootshopASP\BootShopASP\obj\Debug\net6.0\BootShopASP.pdb
 C:\Users\stankomichal\Desktop\Github\BootshopASP\BootShopASP\obj\Debug\net6.0\BootShopASP.genruntimeconfig.cache
 C:\Users\stankomichal\Desktop\Github\BootshopASP\BootShopASP\obj\Debug\net6.0\ref\BootShopASP.dll
+D:\Data\Coding\C#\BootShopASP\BootShopASP\obj\Debug\net6.0\scopedcss\Views\Cart\Index.cshtml.rz.scp.css
+D:\Data\Coding\C#\BootShopASP\BootShopASP\obj\Debug\net6.0\scopedcss\Views\Cart\CartInfo.cshtml.rz.scp.css
+D:\Data\Coding\C#\BootShopASP\BootShopASP\obj\Debug\net6.0\scopedcss\Views\Cart\CartPayment.cshtml.rz.scp.css
+D:\Data\Coding\C#\BootShopASP\BootShopASP\obj\Debug\net6.0\scopedcss\Views\Cart\CartShipping.cshtml.rz.scp.css

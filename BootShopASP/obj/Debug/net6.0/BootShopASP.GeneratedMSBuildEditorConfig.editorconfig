@@ -60,6 +60,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Cart/CartFinal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0RmluYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Cart/SendCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxTZW5kQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -79,6 +87,22 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Cart/CartInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-fgfjxclp0d
+
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Cart/CartPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0UGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-fw6al29i3l
+
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Cart/CartShipping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0U2hpcHBpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t5l5rakizf
+
+[D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-1ftclmcbag
 
 [D:/Data/Coding/C\#/BootShopASP/BootShopASP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=

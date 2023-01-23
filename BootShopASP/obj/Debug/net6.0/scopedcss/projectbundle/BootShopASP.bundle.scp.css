@@ -1,3 +1,40 @@
+/* _content/BootShopASP/Views/Cart/CartInfo.cshtml.rz.scp.css */
+.body[b-fgfjxclp0d] {
+    padding-bottom: 2rem;
+}
+h2[b-fgfjxclp0d] {
+    margin-bottom: 1rem;
+}
+/* _content/BootShopASP/Views/Cart/CartPayment.cshtml.rz.scp.css */
+.body[b-fw6al29i3l] {
+    padding-bottom: 2rem;
+}
+/* _content/BootShopASP/Views/Cart/CartShipping.cshtml.rz.scp.css */
+.body[b-t5l5rakizf] {
+    padding-bottom: 2rem;
+}
+h2[b-t5l5rakizf] {
+    margin-bottom: 1rem;
+}
+/* _content/BootShopASP/Views/Cart/Index.cshtml.rz.scp.css */
+.body[b-1ftclmcbag] {
+    /*min-height: 10rem;*/
+    margin-bottom: 5rem;
+}
+
+h2[b-1ftclmcbag] {
+    font-size: 30px;
+}
+
+h3[b-1ftclmcbag] {
+    text-align: center;
+}
+
+.all-offers-wrapper[b-1ftclmcbag] {
+    width: 14rem !important;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* _content/BootShopASP/Views/Home/Index.cshtml.rz.scp.css */
 .types[b-hybj1jw5b8], .offers[b-hybj1jw5b8], .tags[b-hybj1jw5b8] {
     padding-left: 0.8rem;

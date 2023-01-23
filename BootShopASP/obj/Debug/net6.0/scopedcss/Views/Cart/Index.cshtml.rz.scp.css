@@ -1,0 +1,18 @@
+.body[b-1ftclmcbag] {
+    /*min-height: 10rem;*/
+    margin-bottom: 5rem;
+}
+
+h2[b-1ftclmcbag] {
+    font-size: 30px;
+}
+
+h3[b-1ftclmcbag] {
+    text-align: center;
+}
+
+.all-offers-wrapper[b-1ftclmcbag] {
+    width: 14rem !important;
+    margin-left: auto;
+    margin-right: auto;
+}

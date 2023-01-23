@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model mOrder
+@{
+    ViewBag.Title = "Košík - Informace";
+}
+
+<div class="body padding-10 font">
+    <h2>Kontaktní informace</h2>
+    <form asp-action="CartShipping" id="formik">
+        <div class="content">
+            @Html.HiddenFor(x => x.deliveryID)
+            @Html.HiddenFor(x => x.paymentID)
+            <div class="name">
+                <label asp-for="name">
+                    Jméno:
+                    <input required type="text" asp-for="name">
+                </label>
+                <label asp-for="surname">
+                    Příjmení:
+                    <input required type="text" asp-for="surname">
+                </label>
+            </div>
+            <label asp-for="shipStreet">
+                Ulice + Číslo popisné:
+                <input required type="text" asp-for="shipStreet">
+            </label>
+            <div class="city">
+                <label asp-for="shipCity">
+                    Město:
+                    <input required type="text" asp-for="shipCity">
+                </label>
+                <label asp-for="shipZipCode">
+                    PSČ:
+                    <input required type="text" asp-for="shipZipCode">
+                </label>
+            </div>
+            <label asp-for="shipCountry">
+                Země:
+                <input required type="text" asp-for="shipCountry">
+            </label>
+            <div class="cart-buttons">
+                <a class="form-back" asp-action="Index">&lt; Zpět na informace</a>
+                <button class="form-next">Pokračovat k zaplacení &gt;</button>
+            </div>
+        </div>
+        <div class="product-show">
+            @foreach (mOrderDetail variant in Model.OrderDetails) {
+                <div class="product">
+                    <div class="info"> <img src="~/@variant.ProductVariant.Product.Images[0].path" alt="product-image">
+                        <div class="count">@(variant.count)x </div>
+                        <div class="name">@variant.ProductVariant.Product.name</div></div>
+                    <div class="price">@((variant.price * (1 - variant.discount) * variant.count).ToString("F")) Kč</div>
+                </div>
+            }
+            <hr>
+            <p class="cart-price">
+                Cena celkem: @ViewBag.Price.ToString("F") Kč
+            </p>
+        </div>
+    </form>
+</div>

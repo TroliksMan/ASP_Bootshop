@@ -1,0 +1,90 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model mOrder
+@{
+    ViewBag.Title = "Košík - Doručení";
+}
+<script>
+function GoBack(){
+    var f = document.forms['formik']
+    f.action = '/Cart/CartInfo'
+    f.submit();
+}
+</script>
+<div class="body padding-10 font">
+    <h2>Druh doručení</h2>
+    <form id="formik" asp-action="CartPayment">
+        <div class="content">
+            @Html.HiddenFor(x => x.name)
+            @Html.HiddenFor(x => x.surname)
+            @Html.HiddenFor(x => x.shipStreet)
+            @Html.HiddenFor(x => x.shipCity)
+            @Html.HiddenFor(x => x.shipCountry)
+            @Html.HiddenFor(x => x.shipZipCode)
+            @Html.HiddenFor(x => x.paymentID)
+            <h3>Souhrn:</h3>
+            <div class="shipping-wrapper">
+                <table class="shipping">
+                    <tbody>
+                    <tr>
+                        <th>Jméno a příjmení:</th>
+                        <td>@Model.name @Model.surname</td>
+                    </tr>
+                    <tr>
+                        <th>Ulice:</th>
+                        <td>@Model.shipStreet</td>
+                    </tr>
+                    <tr>
+                        <th>Město:</th>
+                        <td>@Model.shipCity @Model.shipZipCode</td>
+                    </tr>
+                    <tr>
+                        <th>Stát:</th>
+                        <td>@Model.shipCountry</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Druhy doručení:</h3>
+            @foreach (mDelivery item in ViewBag.Shippings) {
+                <label>
+                    <input onchange="ChangePrice(@item.price)" data="@item.price" required type="radio" asp-for="deliveryID" value="@item.id">
+                    @item.name @item.price Kč <br/>
+                </label>
+            }
+            <div class="cart-buttons">
+                <a class="form-back" onclick="GoBack()">&lt; Zpět na informace</a>
+                <button class="form-next">Pokračovat k zaplacení &gt;</button>
+            </div>
+        </div>
+        <div class="product-show">
+            @foreach (mOrderDetail variant in Model.OrderDetails) {
+                <div class="product">
+                    <div class="info">
+                        <img src="~/@variant.ProductVariant.Product.Images[0].path" alt="product-image">
+                        <div class="count">@(variant.count)x </div>
+                        <div class="name">@variant.ProductVariant.Product.name</div>
+                    </div>
+                    <div class="price">@((variant.price * (1 - variant.discount) * variant.count).ToString("F")) Kč</div>
+                </div>
+            }
+            <hr>
+            <p class="cart-price">
+                <span class="doruceni">Doručení: <span id="doruceni-number">0</span> Kč</span> <br>
+                Cena celkem: <span id="sum-price">@ViewBag.Price.ToString("F")</span> Kč
+            </p>
+        </div>
+    </form>
+</div>
+<script>
+var shippingPrice = document.getElementById('doruceni-number');
+var option = document.querySelector('input[name="deliveryID"]:checked')?.getAttribute('data');
+var sum = document.getElementById('sum-price');
+var sumBefore = sum.innerText;
+shippingPrice.innerHTML = option ?? 0;
+sum.innerHTML = (parseFloat(sumBefore.replace(',','.')) + parseInt(shippingPrice.innerHTML)).toFixed(2).replace('.',',');
+
+function ChangePrice(price) {
+    shippingPrice.innerHTML = price
+    sum.innerHTML = (parseFloat(sumBefore.replace(',','.')) + price).toFixed(2).replace('.',',');
+}
+</script>

@@ -3,6 +3,251 @@ body, html {
     margin: 0;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.shipping-wrapper {
+    border-radius: 1rem;
+    border: 1px solid #b7b7b7;
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+}
+table.shipping {
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.shipping tr:not(:last-child) th,table.shipping tr:not(:last-child) td {
+    border-bottom: 1px solid #b7b7b7;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.cart-buttons {
+    margin-top: 1rem;
+}
+
+.product-show .product {
+    align-items: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.product-show .product > div {
+    flex:1;
+}
+.product-show .product .info {
+    display: flex;
+    align-items: center;
+}
+.product-show .product img{
+    width: 5rem;
+    margin-right: 1rem;
+}
+.product-show .product .price{
+    justify-self: end;
+    text-align: end;
+}
+.product-show .cart-price {
+    font-size: 20px;
+    text-align: end;
+}
+.doruceni, .platba {
+    font-size: 18px;
+    color: #858585
+}
+.cart-start-wrapper {
+    text-align: center;
+}
+.cart-start-wrapper .form-next {
+    height: 3rem;
+    width: 8rem;
+}
+.cart-start {
+    text-decoration: none;
+    height: 2rem;
+    color: white;
+    width: 5rem;
+}
+#formik {
+    display: flex;
+}
+
+#formik h3 {
+    margin-bottom: 1rem;
+}
+
+.content {
+    flex: 1;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.product-show {
+    flex: 1;
+}
+
+.form-back {
+    text-decoration: none;
+    color: #c7232f;
+    margin-right: 2rem;
+}
+
+.form-back:hover {
+    color: #961a23;
+    cursor: pointer;
+}
+
+.form-next {
+    height: 2rem;
+    font-size: 20px;
+    background-color: #304068;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-next:hover {
+    cursor: pointer;
+    background-color: #222f4b;
+}
+
+
+.content .name, .content .city {
+    display: flex;
+    gap: 2rem
+}
+
+.content .name, .content .city {
+    flex: 1;
+}
+
+.content input:not([type=radio]) {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #cecece;
+    padding-left: 0.5rem;
+}
+
+.content label {
+    font-size: 20px;
+    width: 100%;
+}
+
+
+main {
+    flex: 1;
+}
+
+.cart-img {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-img:before {
+    position: absolute;
+    right: -12px;
+    bottom: -12px;
+    background-color: #0a53be;
+    color: white;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    content: attr(data-before);
+}
+
+.cart-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #b2b2b2;
+}
+
+.cart-table img {
+    height: 10rem;
+}
+
+.cart-table a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #c7232f;
+}
+
+.cart-table label {
+    font-size: 12px;
+}
+
+.cart-table input {
+    background-color: #e3e3e3;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    width: 4rem;
+    border-radius: 5px;
+}
+
+.cart-table .name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart-table .price {
+    font-size: 20px;
+}
+
+.cart-table .parametry {
+    font-size: 20px;
+}
+
+.cart-table input:focus {
+    /*border-bottom: 1px solid #4b4b4b;*/
+    outline: 2px solid #777777;
+}
+
+.clear-price-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear-price-wrapper .cart-price {
+    font-size: 22px;
+}
+
+.clear-cart {
+    font-size: 18px;
+    text-decoration: none;
+    color: #c7232f;
+}
+
+.clear-cart:hover {
+    cursor: pointer;
+    color: #931922;
+}
+
+.cart-table input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.cart-table input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .cat-link {
     text-decoration: none;
     color: #c7232f;
@@ -872,39 +1117,39 @@ hr {
 }
 
 
-table {
+table.params {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 2rem;
 }
 
-tbody {
+table.params tbody {
     color: #304068;
     font-size: 14px;
 }
 
-tbody tr th {
+table.params tbody tr th {
     width: 50%;
     text-align: left;
 }
 
-thead tr th {
+table.params thead tr th {
     padding: 1rem 0;
 }
 
-tbody tr:nth-child(odd) {
+table.params tbody tr:nth-child(odd) {
     background-color: #d6d9e1;
 }
 
-tbody tr:nth-child(even) {
+table.params tbody tr:nth-child(even) {
     background-color: #ffffff;
 }
 
-td, th {
+table.params td, th {
     padding: 6px 8px;
 }
 
-thead {
+table.params thead {
     color: white;
     background-color: #304068;
 }

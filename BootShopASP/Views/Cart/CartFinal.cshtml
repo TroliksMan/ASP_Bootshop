@@ -1,0 +1,79 @@
+﻿@model mOrder
+
+@{
+    ViewBag.Title = "Košík - Doručení";
+}
+<script>
+function GoBack(){
+    var f = document.forms['formik']
+    f.action = '/Cart/CartPayment'
+    f.submit();
+}
+</script>
+<div class="body padding-10 font" style="padding-bottom: 10rem">
+    <h2>Souhrn</h2>
+    <form id="formik" asp-action="SendCart">
+        <div class="content">
+            @Html.HiddenFor(x => x.name)
+            @Html.HiddenFor(x => x.surname)
+            @Html.HiddenFor(x => x.shipStreet)
+            @Html.HiddenFor(x => x.shipCity)
+            @Html.HiddenFor(x => x.shipCountry)
+            @Html.HiddenFor(x => x.shipZipCode)
+            @Html.HiddenFor(x => x.paymentID)
+            @Html.HiddenFor(x => x.deliveryID)
+            <div class="shipping-wrapper">
+                <table class="shipping">
+                    <tbody>
+                    <tr>
+                        <th>Jméno a příjmení:</th>
+                        <td>@Model.name @Model.surname</td>
+                    </tr>
+                    <tr>
+                        <th>Ulice:</th>
+                        <td>@Model.shipStreet</td>
+                    </tr>
+                    <tr>
+                        <th>Město:</th>
+                        <td>@Model.shipCity @Model.shipZipCode</td>
+                    </tr>
+                    <tr>
+                        <th>Stát:</th>
+                        <td>@Model.shipCountry</td>
+                    </tr>
+                    <tr>
+                        <th>Doručení:</th>
+                        <td>@ViewBag.Delivery.name</td>
+                    </tr>
+                    <tr>
+                        <th>Platba:</th>
+                        <td>@ViewBag.Payment.name</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="cart-buttons">
+                <a class="form-back" onclick="GoBack()">&lt; Zpět na informace</a>
+                <button class="form-next">Odeslat</button>
+            </div>
+        </div>
+        <div class="product-show">
+            @foreach (mOrderDetail variant in Model.OrderDetails) {
+                <div class="product">
+                    <div class="info">
+                        <img src="~/@variant.ProductVariant.Product.Images[0].path" alt="product-image">
+                        <div class="count">@(variant.count)x </div>
+                        <div class="name">@variant.ProductVariant.Product.name</div>
+                    </div>
+                    <div class="price">@((variant.price * (1 - variant.discount) * variant.count).ToString("F")) Kč</div>
+                </div>
+            }
+            <hr>
+            <p class="cart-price">
+                <span class="doruceni">Doručení: @ViewBag.Delivery.price Kč</span> <br>
+                <span class="platba">Platba: @ViewBag.Payment.price Kč</span> <br>
+                Cena celkem: <span id="sum-price">@ViewBag.Price.ToString("F")</span> Kč
+            </p>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,80 @@
+﻿@using BootShopASP.Controllers
+@{
+    ViewData["Title"] = "Cart";
+}
+<script>
+function ChangeCount(event, variantID) {
+    count = event.target.value
+    window.location.replace('/Cart/ChangeCount?variantID=' + variantID + "&count=" + count);
+}
+</script>
+<div class="body">
+    <a asp-action="FillSession">Fill session</a>
+    <h2 class="font padding-10">Košík</h2>
+    @if (ViewBag.Count == 0) {
+        <h3 class="font">V košíku je prázdno :(</h3>
+        <div class="all-offers-wrapper font">
+            <a asp-action="Index" asp-controller="Products" class="all-offers">
+                <p>Zobrazit celou nabídku</p>
+            </a>
+        </div>
+    }
+    else {
+        <div class="padding-10">
+            <table class="cart-table font ">
+                <thead>
+                <tr>
+                    <th>Obrázek</th>
+                    <th>Product</th>
+                    <th>Parametry</th>
+                    <th>Množství</th>
+                    <th>Cena (za kus)</th>
+                    <th>Odstranit</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (CartItemVariants item in ViewBag.Items) {
+                    <tr>
+                        <td>
+                            <img src="~/@item.Variant.Product.Images[0].path" alt="photo">
+                        </td>
+                        <td class="name">
+                            @item.Variant.Product.name
+                        </td>
+                        <td class="parametry">
+                            Velikost: @item.Variant.size <br>
+                            Barva: @item.Variant.Color.name
+                        </td>
+                        <td>
+                            <label>
+                                <input min="0" max="1000" type="number" onchange="ChangeCount(event,  @item.Variant.id)" value="@item.Count"> <br>
+                                Maximálně 1000 párů!<br>
+                                (pro větší objednávku nás kontaktujte na našem mailu zakaznici@bootshop.cz)
+                            </label>
+                        </td>
+                        <td class="price">
+                            @((item.Variant.price * (1 - item.Variant.discount)).ToString("F")) Kč
+                        </td>
+                        <td>
+                            <a asp-action="RemoveItem" asp-route-variantID="@item.Variant.id">X</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        <div class="clear-price-wrapper padding-10 font">
+            <p>
+                <a class="clear-cart" asp-action="ClearCart">Vyprázdnit košík</a>
+            </p>
+            <p class="cart-price">
+                Cena celkem: @ViewBag.Price.ToString("F") Kč
+            </p>
+        </div>
+        <div class="cart-start-wrapper">
+            <button class="form-next">
+                <a class="cart-start" asp-action="CartInfo">Objednat</a>
+            </button>
+        </div>
+    }
+</div>
