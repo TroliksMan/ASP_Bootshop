@@ -9,7 +9,6 @@ namespace BootShopASP.Controllers;
 public class CartController : Controller {
     private MyContext _myContext = new();
 
-    // TODO: Vyřešit položky na skladě
     public IActionResult Index() {
         this.ViewBag.Count = 0;
         mCart sessionCart = this.HttpContext.Session.GetJson<mCart>("cart");
@@ -21,6 +20,7 @@ public class CartController : Controller {
 
         List<CartItemVariants> items = new();
         double price = 0;
+        List<int> maxStock = new();
         foreach (var item in sessionCart.Items) {
             mProductVariant variant = _myContext.tbProductVariants.Include(x => x.Product).ThenInclude(x => x.Images)
                 .Include(x => x.Color).Include(x => x.Product).ThenInclude(x => x.ProductTypes)
@@ -29,11 +29,13 @@ public class CartController : Controller {
                 continue;
             items.Add(new(variant, item.count));
             price += (variant.price * (1 - variant.discount)) * item.count;
+            maxStock.Add(variant.stock);
         }
 
         this.ViewBag.Count = items.Count;
         this.ViewBag.Items = items;
         this.ViewBag.Price = price;
+        this.ViewBag.Stock = maxStock;
         return View();
     }
 
@@ -232,6 +234,7 @@ public class CartController : Controller {
                 ProductVariant = variant, Order = order, count = item.count, price = variant.price,
                 discount = variant.discount, VAT = variant.VAT
             });
+            variant.stock -= item.count;
         }
         
         this._myContext.tbOrders.Add(order);
