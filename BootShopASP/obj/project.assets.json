@@ -1940,19 +1940,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\troli\\.nuget\\packages\\": {}
+    "C:\\Users\\stankomichal\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\BootShopASP.csproj",
+      "projectUniqueName": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\BootShopASP.csproj",
       "projectName": "BootShopASP",
-      "projectPath": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\BootShopASP.csproj",
-      "packagesPath": "C:\\Users\\troli\\.nuget\\packages\\",
-      "outputPath": "D:\\Data\\Coding\\C#\\BootShopASP\\BootShopASP\\obj\\",
+      "projectPath": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\BootShopASP.csproj",
+      "packagesPath": "C:\\Users\\stankomichal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stankomichal\\Desktop\\Github\\BootshopASP\\BootShopASP\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\troli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stankomichal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2020,24 +2024,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2046,7 +2032,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

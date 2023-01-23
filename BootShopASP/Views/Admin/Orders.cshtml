@@ -29,7 +29,7 @@
                         <b>Brand:</b> @detail.ProductVariant.Product.brand
                     </p>
                     <p>
-                        <b>Price:</b> @(detail.price * (1 - detail.discount)) Kč
+                        <b>Price:</b> @((detail.price * (1 - detail.discount)).ToString("F")) Kč
                     </p>
                     <p>
                         <b>VAT:</b> @detail.VAT

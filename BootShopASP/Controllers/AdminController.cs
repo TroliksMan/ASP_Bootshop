@@ -100,19 +100,19 @@ public class AdminController : Controller {
     }
 
     public IActionResult Orders(int pagingIndex = 0) {
-        int productCount = _myContext.tbProducts.Count();
+        int orderCount = _myContext.tbOrders.Count();
 
         if (pagingIndex < 0)
             pagingIndex = 0;
-        else if (pagingIndex > productCount)
+        else if (pagingIndex > orderCount)
             pagingIndex = 0;
 
         var orders = _myContext.tbOrders.Include(x => x.Payment).Include(x => x.Delivery).Include(x => x.OrderDetails)
-            .ThenInclude(x => x.ProductVariant).ThenInclude(x => x.Product).ThenInclude(x => x.Images).Take(PAGE_SIZE);
+            .ThenInclude(x => x.ProductVariant).ThenInclude(x => x.Product).ThenInclude(x => x.Images).Skip(pagingIndex).Take(PAGE_SIZE);
 
         this.ViewBag.Orders = orders;
 
-        SetPaging(pagingIndex, productCount);
+        SetPaging(pagingIndex, orderCount);
         return View();
     }
 

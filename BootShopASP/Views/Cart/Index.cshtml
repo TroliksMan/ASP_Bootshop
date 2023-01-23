@@ -3,10 +3,10 @@
     ViewData["Title"] = "Cart";
 }
 <script>
-function ChangeCount(event, variantID) {
-    count = event.target.value
-    window.location.replace('/Cart/ChangeCount?variantID=' + variantID + "&count=" + count);
-}
+    function ChangeCount(event, variantID) {
+        count = event.target.value
+        window.location.replace('/Cart/ChangeCount?variantID=' + variantID + "&count=" + count);
+    }
 </script>
 <div class="body">
     <a asp-action="FillSession">Fill session</a>
@@ -18,52 +18,51 @@ function ChangeCount(event, variantID) {
                 <p>Zobrazit celou nabídku</p>
             </a>
         </div>
-    }
-    else {
+    } else {
         <div class="padding-10">
             <table class="cart-table font ">
                 <thead>
-                <tr>
-                    <th>Obrázek</th>
-                    <th>Product</th>
-                    <th>Parametry</th>
-                    <th>Množství</th>
-                    <th>Cena (za kus)</th>
-                    <th>Odstranit</th>
-                </tr>
+                    <tr>
+                        <th>Obrázek</th>
+                        <th>Product</th>
+                        <th>Parametry</th>
+                        <th>Množství</th>
+                        <th>Cena (za kus)</th>
+                        <th>Odstranit</th>
+                    </tr>
                 </thead>
                 <tbody>
-                @for (int i = 0; i < ViewBag.Items.Count; i++) {
-                    <tr>
-                        <td>
-                            <img src="~/@ViewBag.Items[i].Variant.Product.Images[0].path" alt="photo">
-                        </td>
-                        <td class="name">
-                            @ViewBag.Items[i].Variant.Product.name
-                        </td>
-                        <td class="parametry">
-                            Velikost: @ViewBag.Items[i].Variant.size <br>
-                            Barva: @ViewBag.Items[i].Variant.Color.name
-                        </td>
-                        <td>
-                            <label>
-                                <input min="0" max="@(ViewBag.Stock[i] < 1000 ? ViewBag.Stock[i] : 1000)" type="number" onchange="ChangeCount(event,  @ViewBag.Items[i].Variant.id)" value="@ViewBag.Items[i].Count"> <br>
-                                Maximálně @(ViewBag.Stock[i] < 1000 ? ViewBag.Stock[i] : 1000) párů!<br>
-                                @if (@ViewBag.Stock[i] == 1000) {
-                                    <span>
-                                        (pro větší objednávku nás kontaktujte na našem mailu zakaznici@bootshop.cz)
-                                    </span>
-                                }
-                            </label>
-                        </td>
-                        <td class="price">
-                            @((ViewBag.Items[i].Variant.price * (1 - ViewBag.Items[i].Variant.discount)).ToString("F")) Kč
-                        </td>
-                        <td>
-                            <a asp-action="RemoveItem" asp-route-variantID="@ViewBag.Items[i].Variant.id">X</a>
-                        </td>
-                    </tr>
-                }
+                    @for (int i = 0; i < ViewBag.Items.Count; i++) {
+                        <tr>
+                            <td>
+                                <img src="~/@ViewBag.Items[i].Variant.Product.Images[0].path" alt="photo">
+                            </td>
+                            <td class="name">
+                                @ViewBag.Items[i].Variant.Product.name
+                            </td>
+                            <td class="parametry">
+                                Velikost: @ViewBag.Items[i].Variant.size <br>
+                                Barva: @ViewBag.Items[i].Variant.Color.name
+                            </td>
+                            <td>
+                                <label>
+                                    <input min="0" max="@(ViewBag.Stock[i] < 1000 ? ViewBag.Stock[i] : 1000)" type="number" onchange="ChangeCount(event,  @ViewBag.Items[i].Variant.id)" value="@ViewBag.Items[i].Count"> <br>
+                                    Maximálně @(ViewBag.Stock[i] < 1000 ? ViewBag.Stock[i] : 1000) párů!<br>
+                                    @if (@ViewBag.Stock[i] == 1000) {
+                                        <span>
+                                            (pro větší objednávku nás kontaktujte na našem mailu zakaznici@bootshop.cz)
+                                        </span>
+                                    }
+                                </label>
+                            </td>
+                            <td class="price">
+                                @((ViewBag.Items[i].Variant.price * (1 - ViewBag.Items[i].Variant.discount)).ToString("F")) Kč
+                            </td>
+                            <td>
+                                <a asp-action="RemoveItem" asp-route-variantID="@ViewBag.Items[i].Variant.id">X</a>
+                            </td>
+                        </tr>
+                    }
                 </tbody>
             </table>
         </div>
