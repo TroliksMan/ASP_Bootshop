@@ -3,6 +3,11 @@
 namespace BootShopASP.Models;
 
 public class MyContext : DbContext {
+    private const string HOST = "%HOST%";
+    private const string DBNAME = "%DB_NAME%";
+    private const string USER = "%USER%";
+    private const string PASSWORD = "%PASSWORD%";
+
     public DbSet<mAdmin> tbAdmins { get; set; }
     public DbSet<mCategory> tbCategories { get; set; }
     public DbSet<mColor> tbColors { get; set; }
@@ -18,6 +23,6 @@ public class MyContext : DbContext {
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
         optionsBuilder.UseMySQL(
-            "server=mysqlstudenti.litv.sssvt.cz;database=4b2_stankomichal_db2;user=stankomichal;password=123456Ab;SslMode=none");
+            $"server={HOST};database={DBNAME};user={USER};password={PASSWORD};SslMode=none");
     }
 }
